@@ -1,0 +1,155 @@
+.scrollup {
+	z-index: 2;
+	position: fixed;
+	right: 10px;
+	color: $white;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	cursor: pointer;
+	@include transition();
+	border-radius: 5px;
+}
+
+.scrollup:before {
+	content: '\f102';
+	font-size: 20px;
+	font-family: 'FontAwesome';
+}
+
+footer#colophon {
+	background-position: bottom center;
+	background-repeat: no-repeat;
+	.thim-social {
+		a {
+			font-size: 18px;
+		}
+	}
+	.footer {
+		padding: 80px 0 40px 0;
+		@media(max-width:767px){
+			padding: 50px 0 10px 0;
+		}
+		aside {
+			margin-bottom: 70px;
+			@media(max-width:1199px){
+				margin-bottom: 50px;
+			}
+			&.widget_nav_menu {
+				padding-top: 105px;
+				@media(max-width: 767px){
+					padding-top: 20px;
+				}
+			}
+			.newletter {
+				padding-top: 25px;
+				.widget-title {
+					margin-bottom: 35px;
+					font-size: 33px;
+					@media(max-width: 991px){
+						font-size: 28px;
+						margin-bottom: 42px;
+					}
+					@media(max-width: 767px){
+						margin-bottom: 20px;
+					}
+				}
+				.mc4wp-form {
+					margin: 0px 0 30px;
+					@media(max-width:1199px){
+						margin-bottom: 10px;
+					}
+					input[type="submit"] {
+						margin-top: 13px;
+					}
+				}
+			}
+			&:last-child {
+				margin-bottom: 0;
+			}
+			ul {
+				margin: 0;
+				&.social_link {
+					li {
+						&:first-child {
+							margin-left: 0;
+						}
+					}
+				}
+				li {
+					list-style: none;
+					margin-bottom: 10px;
+					text-transform: capitalize;
+				}
+			}
+		}
+		.thim-footer-location {
+			max-width: 300px;
+			.image {
+				margin-bottom: 50px;
+				@media(max-width: 767px){
+					margin-bottom: 30px;
+				}
+			}
+			p {
+				margin-bottom: 15px;
+			}
+		}
+	}
+	.row aside {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+
+	.text-copyright {
+		padding: 50px 0;
+		margin: 0 auto;
+		text-align: left;
+		line-height: 26px;
+		@media(max-width:767px){
+			padding: 35px 0;
+		}
+		.widget{
+			padding: 0;
+			.copyright-text{
+				a{
+					&:hover{
+						color: var(--thim-body-primary-color);
+					}
+				}
+			}
+		}
+	}
+	a {
+		.fa:hover {
+			&.fa-facebook {
+				color: #3b5998;
+			}
+			&.fa-twitter {
+				color: #1da1f2;
+			}
+			&.fa-google-plus {
+				color: #db4437;
+			}
+			&.fa-dribbble {
+				color: #ea4c89;
+			}
+			&.fa-linkedin {
+				color: #007bb5;
+			}
+			&.fa-pinterest {
+				color: #bd081c;
+			}
+			&.fa-digg {
+				color: #486ca3;
+			}
+			&.fa-youtube {
+				color: #ff0000;
+			}
+			&.fa-instagram {
+				color: #c32aa3;
+			}
+		}
+	}
+}

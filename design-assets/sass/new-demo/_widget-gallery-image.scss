@@ -1,0 +1,32 @@
+.elementor-widget-thim-gallery-image,
+.thim-widget-gallery-images {
+	.thim-gallery-images-column {
+		text-align: center;
+		.list_image {
+			padding:    40px 0 65px 0;
+			border:     1px solid #eee;
+			margin:     0 120px;
+			border-top: none;
+			.item-image {
+				display: inline-block;
+				img {
+					margin: 0 30px;
+				}
+			}
+		}
+		.text_wellcome {
+			margin-top: -17px;
+			display:    block;
+			h3 {
+				margin:      0;
+				display:     inline-block;
+				padding:     0 30px;
+				background:  #fff;
+				font-size:   26px;
+				font-weight: 400;
+				font-style:  italic;
+				color:       #c19b76;
+			}
+		}
+	}
+}

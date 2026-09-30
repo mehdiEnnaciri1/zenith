@@ -1,0 +1,139 @@
+.thim_tours_slider {
+	position: relative;
+
+	ul {
+		margin: 0;
+
+		li {
+			display: inline-block;
+			position: relative;
+			padding: 0 15px;
+
+			.tour_price {
+				position: absolute;
+				top: 25px;
+				right: 35px;
+				padding: 20px;
+				background: #c19b76;
+				border-radius: 4px;
+
+				.price {
+					color: #fff;
+					font-size: 30px;
+					line-height: 30px;
+					font-weight: 400;
+				}
+
+				.unit {
+					display: block;
+					font-size: 16px;
+					color: #fff;
+					line-height: 16px;
+					font-weight: 400;
+
+					&:before {
+						content: '/';
+					}
+				}
+			}
+
+			.tour_content {
+				position: absolute;
+				bottom: 0;
+				left: 15px;
+				right: 15px;
+				padding: 30px;
+				background: rgba(0, 0, 0, 0.4);
+
+				.tour_infosale {
+					font-size: 16px;
+					color: #d6d6d6;
+					font-weight: 300;
+					text-transform: uppercase;
+					line-height: 16px;
+				}
+
+				h3.tour_name {
+					font-size: 20px;
+					margin: 0;
+					color: #fff;
+					line-height: 20px;
+					font-weight: bold;
+
+					a {
+						color: #fff;
+
+						&:hover {
+							color: #fff;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.navigation {
+		position: static;
+
+		.prev {
+			position: absolute;
+			left: -5px;
+			top: 50%;
+			width: 65px;
+			height: 65px;
+			text-align: center;
+			z-index: 999;
+			background: rgba(#ffffff, 0.7);
+			border: 1px solid $border-color;
+			border-radius: 50%;
+			@include translate(0, -50%);
+
+			span {
+				line-height: 65px;
+				font-size: 40px;
+				color: #333;
+			}
+
+			&:hover {
+				cursor: pointer;
+				background: #c19b76;
+				border-color: #c19b76;
+
+				span {
+					color: #fff;
+				}
+			}
+		}
+
+		.next {
+			position: absolute;
+			right: -5px;
+			top: 50%;
+			width: 65px;
+			height: 65px;
+			text-align: center;
+			z-index: 999;
+			background: rgba(#ffffff, 0.7);
+			border: 1px solid $border-color;
+			border-radius: 50%;
+			@include translate(0, -50%);
+
+			span {
+				line-height: 65px;
+				font-size: 40px;
+				color: #333;
+			}
+
+			&:hover {
+				cursor: pointer;
+				background: #c19b76;
+				border-color: #c19b76;
+
+				span {
+					color: #fff;
+				}
+			}
+		}
+	}
+
+}

@@ -1,0 +1,81 @@
+footer#colophon.footer_style_new {
+	font-size: 18px;
+	.text-footer {
+		margin-top: 30px;
+	}
+	aside {
+		.newletter {
+			padding-top: 0;
+			.mc4wp-form {
+				margin: 0;
+			}
+			.mc4wp-form input[type=email] {
+				width:         202px;
+				margin:        0;
+				border-radius: 0;
+				padding:       24px 17px;
+				background:    transparent;
+				border:        1px solid #89898a;
+				font-size:     16px;
+				font-weight:   300;
+				color:         #757575;
+			}
+			.mc4wp-form input[type=submit] {
+				margin:         0;
+				height:         50px;
+				border-radius:  0;
+				font-size:      16px;
+				font-weight:    300;
+				text-transform: uppercase;
+				color:          #fff;
+				line-height:    16px;
+			}
+		}
+		.widget-title {
+			margin-top:     0;
+			font-size:      18px;
+			text-transform: uppercase;
+			color:          #fff;
+			font-weight:    400;
+			position:       relative;
+			margin-bottom:  45px;
+			&:before {
+				position:   absolute;
+				content:    '';
+				background: #7a7a7a;
+				height:     1px;
+				width:      40px;
+				left:       0;
+				bottom:     -15px;
+			}
+		}
+
+		ul li {
+			margin-bottom: 15px;
+		}
+		ul li i {
+			margin-right: 10px;
+		}
+	}
+
+	.copy-right-new {
+		background: #191919;
+		.text-copyright {
+			text-align: center;
+			border:     none;
+			padding:    37px 0;
+			.elementor-widget-thim-copyright,
+			.thim-widget-copyright {
+				.copyright-text {
+					font-size:   18px;
+					font-weight: 300;
+					color:       #78787a;
+					a {
+						color: #c19b76;
+					}
+				}
+			}
+		}
+	}
+
+}

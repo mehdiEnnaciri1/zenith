@@ -1,0 +1,133 @@
+.elementor-widget-thim-event,
+.thim-widget-event {
+	.item-event {
+		display: table;
+		.event-thumbnail {
+			display:        table-cell;
+			vertical-align: middle;
+			width:          50%;
+		}
+		.content-item {
+			display:        table-cell;
+			vertical-align: top;
+			background:     #fff;
+			padding:        0 30px 0 40px;
+			h3 {
+				margin-top:  20px;
+				font-weight: 700;
+			}
+			.view-detail {
+				text-transform: uppercase;
+				font-size:      $font-size-small;
+				font-weight:    700;
+				margin-bottom:  20px;
+				display:        block;
+			}
+		}
+		.content-right {
+			display:        table-cell;
+			width:          228px;
+			vertical-align: middle;
+		}
+	}
+}
+
+/*coming soon time**/
+.counter-group {
+	text-align: center;
+	width:      165px;
+	margin:     0 auto;
+}
+
+.counter-group:before,
+.counter-group:after {
+	content: " ";
+	display: table;
+}
+
+.counter-group:after {
+	clear: both;
+}
+
+.counter-block {
+	float:  left;
+	margin: 5px;
+}
+
+.counter-block .counter {
+	position: relative;
+	width:    50px;
+	height:   40px;
+	overflow: hidden;
+}
+
+.counter-block {
+	background: rgba(255, 255, 255, 0.2);
+	border:     1px solid rgba(255, 255, 255, 0.1);
+	padding:    10px;
+}
+
+.hidden-down {
+	display: none;
+}
+
+.counter-block .counter .number {
+	padding:     1%;
+	width:       46%;
+	height:      98%;
+	position:    absolute;
+	font-size:   36px;
+	line-height: 50px;
+	top:         -10000px;
+}
+
+.counter-block .counter .number.tens {
+	left: 0;
+}
+
+.counter-block .counter .number.units {
+	left: 50%;
+}
+
+.counter-block .counter .number.hundreds {
+	display: none !important;
+}
+
+.counter-block .counter .number.show {
+	top:     0;
+	z-index: 2;
+}
+
+.counter-block .counter .number.hidden-down {
+	top: 100%;
+}
+
+.counter-block .counter .number.hidden-up {
+	top:     -100%;
+	z-index: 100;
+}
+
+.counter-block .counter.with-hundreds {
+	width: 70px;
+}
+
+.counter-block .counter.with-hundreds .number {
+	width: 30.66%;
+}
+
+.counter-block .counter.with-hundreds .number.tens {
+	left: 33.33%;
+}
+
+.counter-block .counter.with-hundreds .number.units {
+	left: 66.66%;
+}
+
+.counter-block .counter.with-hundreds .number.hundreds {
+	display: block !important;
+	left:    0;
+}
+
+.counter-block .counter-caption {
+	font-size: 13px;
+}

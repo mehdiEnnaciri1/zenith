@@ -1,0 +1,277 @@
+.layout-special {
+	text-align: center;
+	padding: 0;
+
+	form {
+		display: table;
+		width: 767px;
+		margin: 0 auto;
+
+		.hb-form-table {
+			display: table-cell;
+			vertical-align: middle;
+			padding: 20px 0;
+			background-color: #ffffff;
+			box-shadow: 0px 15px 35px 0 rgba(0, 29, 44, 0.1);
+
+			.hb-form-field {
+				display: inline-block;
+				vertical-align: middle;
+				border-right: 1px solid #eee;
+				margin: 0;
+				width: 33.33%;
+
+				.label {
+					font-size: 16px;
+					font-weight: 300;
+					font-style: normal;
+					font-stretch: semi-condensed;
+					line-height: normal;
+					letter-spacing: 0.8px;
+					text-align: center;
+					color: #5f5f5f;
+					text-transform: uppercase;
+				}
+
+				.hb-form-field-input {
+					input.day, select {
+						min-width: 70px;
+						font-size: 50px;
+						font-weight: 400;
+						font-style: normal;
+						font-stretch: normal;
+						letter-spacing: 3px;
+						text-align: center;
+						color: #1c1c1c;
+						line-height: 50px;
+						width: 60px;
+						border: none;
+						height: 65px;
+					}
+
+					input.month {
+						font-size: 14px;
+						font-weight: 400;
+						font-style: normal;
+						font-stretch: normal;
+						line-height: normal;
+						letter-spacing: .8px;
+						text-align: center;
+						color: #5f5f5f;
+						min-width: 30px;
+						width: 30px;
+						border: none;
+						padding: 0;
+						top: -23px;
+						background: transparent;
+					}
+
+					button.ui-datepicker-trigger {
+						top: 0px;
+						left: 0px;
+						width: 100%;
+						height: 100%;
+						min-width: 30px;
+
+						i {
+							margin-top: 34px;
+
+							&:before {
+								content: '\f3d0';
+								font-family: Ionicons;
+							}
+						}
+					}
+
+					.select2-container {
+						width: 50% !important;
+						float: left;
+						text-align: right;
+
+						.select2-selection--single {
+							pointer-events: none;
+							cursor: default;
+							text-decoration: none;
+							height: 65px;
+							border: none;
+
+							.select2-selection__rendered {
+								font-size: 50px;
+								line-height: 68px;
+								padding: 0 5px;
+							}
+
+							.select2-selection__arrow {
+								display: none;
+							}
+						}
+					}
+
+					//new
+					.nav-guest,
+					.nav-child {
+						transform: translate(0, 10px);
+						width: 50%;
+						float: left;
+						text-align: left;
+						padding: 0 10px;
+
+						span {
+							display: block;
+							font-size: 18px;
+
+							&:hover {
+								color: #c19b76;
+								cursor: pointer;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		p.hb-submit {
+			display: table-cell;
+			padding: 0;
+			width: 190px;
+
+			button {
+				font-size: 16px;
+				font-weight: normal;
+				font-style: normal;
+				font-stretch: semi-condensed;
+				line-height: 1.5;
+				letter-spacing: 0.8px;
+				text-align: center;
+				color: #ffffff;
+				text-transform: uppercase;
+				border-radius: 0;
+				height: auto;
+				padding: 42px 0;
+				background: #3b3b3b;
+				border: none transparent;
+
+				&.hb_loading {
+					&:before {
+						border: none;
+						border-radius: 0;
+					}
+				}
+			}
+		}
+	}
+
+	&.has-child {
+		form {
+			width: 900px;
+
+			.hb-form-table {
+				.hb-form-field {
+					width: 25%;
+				}
+			}
+		}
+	}
+}
+
+#sidebar .layout-special .hb-form-table .hb-form-field .hb-form-field-input input.day, #sidebar .layout-special .hb-form-table .hb-form-field .hb-form-field-input select {
+	height: 100px;
+}
+
+#sidebar .layout-special .hb-form-table .hb-form-field .hb-form-field-input button.ui-datepicker-trigger i {
+	display: none;
+}
+
+#sidebar .layout-special .hb-form-table .hb-form-field {
+	border: none;
+}
+
+#sidebar .layout-special p.hb-submit {
+	display: block;
+}
+.thim-search-home1{
+	.thim-search-room{
+		padding: 50px 70px 50px 0;
+		position: relative;
+		background-image: linear-gradient(to bottom left, transparent 50%, #f3f3f3 50%), linear-gradient(#f3f3f3, #f3f3f3), linear-gradient(#f3f3f3, #f3f3f3);
+		background-size: 38px 38px, 100% 100%, 100% 100%;
+		background-position: 100% 100%, -38px 0%, 100% 38px;
+		background-repeat: no-repeat;
+		@media(max-width:991px){
+			padding: 50px 15px 50px 0;
+		}
+		@media(max-width:767px){
+			padding: 50px 15px 50px 35px;
+		}
+		&::before{
+			position: absolute;
+			content: '';
+			height: 100%;
+			background: #f3f3f3;
+			width: 100%;
+			left: -99%;
+			top: 0;
+			@media(max-width:767px){
+				display: none;
+			}
+		}
+		&::after{
+			position: absolute;
+			content: '';
+			width: 0;
+			height: 0;
+			top: 0;
+			right: 0;
+			border-right: 38px solid transparent;
+			border-bottom: 38px solid #c2c2c2;
+		}
+		.hotel-booking-search{
+			form{
+				padding: 0;
+				display: flex;
+				@media(max-width:780px){
+					display: block;
+				}
+				.hb-form-table{
+					.hb-form-field{
+						padding: 0 20px 0 0;
+						&:hover{
+							input,button,select{
+								border: 1px solid var(--thim-body-primary-color);
+							}	
+						}
+					}
+				}
+				.hb-submit{
+					padding: 0;
+					@media(max-width:767px){
+						padding-right: 20px;
+					}
+					button{
+						text-transform: uppercase;
+						font-size: 16px;
+						@media(max-width: 1199px){
+							font-size: 14px;
+						}
+						@media(max-width: 991px){
+							font-size: 13px;
+						}
+					}
+				}
+			}
+			input,button,select{
+				line-height: 50px;
+				height: unset;
+				height: 50px;
+				font-size: 16px;
+				cursor: pointer;
+				border: 1px solid transparent;
+				border-radius: unset;
+				@media(max-width: 991px){
+					font-size: 14px;
+				}
+			}
+		}
+
+	}
+}

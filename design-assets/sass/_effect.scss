@@ -1,0 +1,51 @@
+/** Transition **/
+a,
+button,
+button[type="button"],
+button[type="submit"],
+input[type="submit"],
+.bg-video-play,
+.navigation .navbar-nav > li > span,
+.hb_search_room_item_detail_price_close{
+  @include transition(all 0.3s);
+}
+.hb_related_other_room,
+.hb_room_carousel_container{
+  .navigation {
+    span[class*="pe-"]{
+      &:before,
+      &:after{
+        @include transition(all 0.3s);
+      }
+    }
+  }
+}
+
+.elementor-widget-thim-icon-box,
+.thim-widget-icon-box{
+  .wrapper-box-icon{
+    &.has_custom_image{
+      &.box_shadow_icon{
+        .smicon-box{
+          .icon-images img{
+            @include transition(all 0.3s);
+            @include scale(1);
+          }
+          &:hover{
+            .icon-images img{
+              @include transition(all 1s);
+              @include scale(1.15);
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/* Google map */
+.thim-map-iframe{
+  iframe{
+    height: 100%;
+    width: 100%;
+  }
+}

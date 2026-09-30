@@ -1,0 +1,2750 @@
+$white: #fff;
+$border-color: #dce0e2;
+body {
+	background-color: $thim_thim_body_bg_color;
+	font-family: $thim_thim_font_body_font_family;
+	font-size: $thim_thim_font_body_font_size;
+	font-weight: $thim_thim_font_body_font_weight;
+	line-height: $thim_thim_font_body_line_height;
+	color: $thim_thim_font_body_color;
+	overflow-x: hidden;
+
+	&.bg-type-image {
+		background-repeat: $thim_thim_bg_repeat;
+		background-position: $thim_thim_bg_position;
+		background-attachment: $thim_thim_bg_attachment;
+		background-size: $thim_thim_bg_size;
+		background-image: url($thim_thim_bg_pattern_upload);
+	}
+
+	&.bg-type-pattern {
+		background-repeat: $thim_thim_bg_repeat;
+		background-position: $thim_thim_bg_position;
+		background-attachment: $thim_thim_bg_attachment;
+		background-size: $thim_thim_bg_size;
+		background-image: url($thim_thim_bg_pattern);
+	}
+}
+
+h1 {
+	font-size: $thim_thim_font_h1_font_size;
+	text-transform: $thim_thim_font_h1_text_transform;
+	line-height: $thim_thim_font_h1_line_height;
+}
+
+h2 {
+	font-size: $thim_thim_font_h2_font_size;
+	text-transform: $thim_thim_font_h2_text_transform;
+	line-height: $thim_thim_font_h2_line_height;
+}
+
+h3 {
+	font-size: $thim_thim_font_h3_font_size;
+	text-transform: $thim_thim_font_h3_text_transform;
+	line-height: $thim_thim_font_h3_line_height;
+}
+
+h4 {
+	font-size: $thim_thim_font_h4_font_size;
+	text-transform: $thim_thim_font_h4_text_transform;
+	line-height: $thim_thim_font_h4_line_height;
+}
+
+h5 {
+	font-size: $thim_thim_font_h5_font_size;
+	text-transform: $thim_thim_font_h5_text_transform;
+	line-height: $thim_thim_font_h5_line_height;
+}
+
+h6 {
+	font-size: $thim_thim_font_h6_font_size;
+	text-transform: $thim_thim_font_h6_text_transform;
+	line-height: $thim_thim_font_h6_line_height;
+}
+
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+	font-family: $thim_thim_font_title_font_family;
+	color: $thim_thim_font_title_color;
+	font-weight: $thim_thim_font_title_font_weight;
+	font-style: $thim_thim_font_title_font_style;
+}
+
+a {
+	color: $thim_thim_body_primary_color;
+}
+
+/************main menu***************/
+.site-header {
+	background: $thim_thim_header_bg_color;
+	&.affix{
+		background: $thim_thim_sticky_bg_main_menu_color;
+	}
+	.navbar-nav{
+		>li{
+			>a{
+				&::before{
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 768px) {
+	.site-header{
+		&.header_overlay{
+			.navbar-nav{
+				>li{
+					>a::before{
+						background: $thim_thim_main_menu_text_color;
+					}
+				}
+			}
+			&.affix{
+				.navbar-nav{
+					>li{
+						>a::before{
+							background: $thim_thim_sticky_main_menu_text_color;
+						}
+					}
+				}
+			}
+		}
+	}
+	.bg-custom-sticky.affix {
+		background: $thim_thim_sticky_bg_main_menu_color;
+		box-shadow: 0 1px 5px -2px rgba(red($thim_thim_sticky_main_menu_text_color), green($thim_thim_sticky_main_menu_text_color), blue($thim_thim_sticky_main_menu_text_color), 0.4);
+
+		.top-header {
+			color: rgba(red($thim_thim_sticky_main_menu_text_color), green($thim_thim_sticky_main_menu_text_color), blue($thim_thim_sticky_main_menu_text_color), 0.7);
+
+			a {
+				color: rgba(red($thim_thim_sticky_main_menu_text_color), green($thim_thim_sticky_main_menu_text_color), blue($thim_thim_sticky_main_menu_text_color), 0.7);
+			}
+
+			b {
+				color: $thim_thim_sticky_main_menu_text_color;
+			}
+
+			aside {
+				border-bottom: 1px solid rgba(red($thim_thim_sticky_main_menu_text_color), green($thim_thim_sticky_main_menu_text_color), blue($thim_thim_sticky_main_menu_text_color), 0.15);
+			}
+		}
+	}
+}
+
+.top-header {
+	font-size: $thim_thim_font_size_top_header_font_size;
+	color: $thim_thim_toolbar_color;
+
+	b {
+		color: $thim_thim_toolbar_color;
+	}
+
+	a {
+		color: $thim_thim_toolbar_color;
+
+		&:hover {
+			color: $thim_thim_toolbar_color_hover;
+		}
+	}
+
+	aside {
+		border-bottom: 1px solid $thim_thim_toolbar_color;
+	}
+}
+
+@media (min-width: 768px) {
+	.bg-custom-sticky.affix {
+		.navbar-nav {
+			> li {
+				&.current-menu-item, .current-menu-ancestor, &:hover {
+					> a, > span {
+						color: $thim_thim_sticky_main_menu_text_hover_color;
+
+						span {
+							border-color: $thim_thim_sticky_main_menu_text_hover_color;
+						}
+					}
+				}
+
+				.nav-active {
+					color: $thim_thim_sticky_main_menu_text_hover_color;
+				}
+
+				> a, > span {
+					color: $thim_thim_sticky_main_menu_text_color;
+
+					&:hover {
+						color: $thim_thim_sticky_main_menu_text_hover_color;
+
+						span {
+							border-color: $thim_thim_sticky_main_menu_text_hover_color;
+						}
+					}
+				}
+
+				&.menu-item-has-children {
+					> a, > span.disable_link {
+						&:after {
+							color: $thim_thim_sticky_main_menu_text_color;
+						}
+					}
+				}
+			}
+
+		}
+
+		.menu-right {
+			li {
+				a, span, div {
+					color: $thim_thim_sticky_main_menu_text_color;
+
+					&:hover {
+						color: $thim_thim_sticky_main_menu_text_hover_color;
+					}
+				}
+			}
+		}
+	}
+
+	.header_v1 {
+		.width-navigation {
+			.menu-right {
+				border-color: rgba(red($thim_thim_main_menu_text_color), green($thim_thim_main_menu_text_color), blue($thim_thim_main_menu_text_color), 0.4);
+			}
+		}
+
+	}
+
+	.navigation {
+		.navbar-nav li.tc-menu-layout-default {
+			.sub-menu {
+				background: $thim_thim_sub_menu_bg_color;
+
+				li {
+					&:after {
+						background: $thim_thim_sub_menu_border_color;
+					}
+
+					&.current_page_item {
+						> a {
+							color: $thim_thim_sub_menu_text_color_hover;
+
+							> span {
+								color: $thim_thim_sub_menu_text_color_hover;
+							}
+						}
+					}
+
+					&:hover {
+						> a {
+							color: $thim_thim_sub_menu_text_color_hover;
+
+							> span {
+								color: $thim_thim_sub_menu_text_color_hover;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.navbar-nav {
+		li.multicolumn {
+			.megacol {
+				background: $thim_thim_sub_menu_bg_color;
+
+				> li {
+					> a, > span {
+						border-bottom: 1px solid $thim_thim_sub_menu_border_color;
+						font-size: $thim_thim_font_h6_font_size;
+						color: $thim_thim_font_title_color;
+					}
+				}
+			}
+		}
+
+	}
+
+	.nav > li .sub-menu, .nav > li.multicolumn > .sub-menu, .nav > li.widget_area > .sub-menu {
+		a, span {
+			color: $thim_thim_sub_menu_text_color;
+		}
+
+		a {
+			&:hover {
+				color: $thim_thim_sub_menu_text_color_hover;
+			}
+		}
+	}
+
+	.menu-right {
+		li {
+			a, span, div {
+				color: $thim_thim_main_menu_text_color;
+				font-size: $thim_thim_main_menu_font_size;
+
+				&:hover {
+					color: $thim_thim_main_menu_text_hover_color;
+				}
+			}
+		}
+	}
+
+	.navigation {
+		.navbar-nav {
+			> li {
+				> a, > span {
+					color: $thim_thim_main_menu_text_color;
+					font-size: $thim_thim_main_menu_font_size;
+					font-weight: $thim_thim_main_menu_font_weight;
+				}
+
+				&.menu-item-has-children {
+					> a, > span {
+						&:after {
+							color: $thim_thim_main_menu_text_color;
+						}
+					}
+				}
+
+				&.current-menu-item, &:hover {
+					> a, > span {
+						color: $thim_thim_main_menu_text_hover_color;
+
+						&:after {
+							background: $thim_thim_main_menu_text_color;
+
+							.bg-custom-sticky.affix & {
+								background: $thim_thim_sticky_main_menu_text_color;
+							}
+						}
+					}
+				}
+
+				.nav-active {
+					color: $thim_thim_main_menu_text_hover_color;
+				}
+
+				.sub-menu {
+					a, span {
+						font-size: $thim_thim_main_menu_font_size;
+						font-weight: $thim_thim_main_menu_font_weight;
+					}
+				}
+			}
+
+			#magic-line {
+				background: $thim_thim_main_menu_text_color;
+
+				.bg-custom-sticky.affix & {
+					background: $thim_thim_sticky_main_menu_text_color;
+				}
+			}
+		}
+	}
+
+	.width-logo {
+		width: $thim_thim_width_logo;
+
+		> a {
+			width: $thim_thim_width_logo !important;
+			overflow: hidden;
+			display: block;
+		}
+	}
+
+	.width-navigation {
+		width: -moz-calc(100% - #{$thim_thim_width_logo});
+		width: -webkit-calc(100% - #{$thim_thim_width_logo});
+		width: calc(100% - #{$thim_thim_width_logo});
+	}
+
+	.width-navigation-left, .width-navigation-right {
+		width: -moz-calc(50% - #{$thim_thim_width_logo / 2px});
+		width: -webkit-calc(50% - #{$thim_thim_width_logo / 2px});
+		width: calc(50% - #{$thim_thim_width_logo / 2px});
+	}
+
+	.width-navigation-left li {
+		color: $thim_thim_main_menu_text_color;
+
+		a, p, div {
+			color: $thim_thim_main_menu_text_color
+		}
+	}
+
+	.header_v2 {
+		.navbar-toggle {
+			.icon-bar {
+				background-color: $thim_thim_main_menu_text_color;
+			}
+
+			> div {
+				color: $thim_thim_main_menu_text_color;
+			}
+
+			&:hover {
+				> div {
+					color: $thim_thim_main_menu_text_hover_color;
+				}
+
+				.icon-bar {
+					background-color: $thim_thim_main_menu_text_hover_color;
+				}
+			}
+		}
+
+		.menu-main-menu {
+			background: $thim_thim_sub_menu_bg_color;
+		}
+
+		.width-navigation-left {
+			font-size: $thim_thim_main_menu_font_size;
+			font-weight: $thim_thim_main_menu_font_weight;
+		}
+
+		.width-navigation-right {
+			.menu-right {
+				&:after {
+					background: rgba(red($thim_thim_main_menu_text_color), green($thim_thim_main_menu_text_color), blue($thim_thim_main_menu_text_color), 0.7);
+				}
+			}
+		}
+	}
+}
+
+@media (max-width: 767px) {
+	.width-logo {
+		> a {
+			width: $thim_thim_width_logo;
+			display: inline-block;
+			overflow: hidden;
+		}
+	}
+
+	.width-navigation {
+		background: $thim_thim_bg_mobile_menu_color;
+	}
+
+	.width-navigation ul li a, .width-navigation ul li span {
+		color: $thim_thim_mobile_menu_text_color;
+	}
+
+	.width-navigation ul li.current-menu-item {
+		> a, > span {
+			color: $thim_thim_mobile_menu_text_hover_color;
+		}
+	}
+
+	.top-header {
+		color: $thim_thim_toolbar_color;
+	}
+
+	.menu-mobile-effect {
+		span {
+			background-color: $thim_thim_icon_mobile_menu_color_background;
+		}
+	}
+
+	.navbar-nav .sub-menu {
+		&:before {
+			background: $thim_thim_mobile_menu_text_color;
+		}
+
+		li {
+			&:before {
+				background: $thim_thim_mobile_menu_text_color;
+			}
+		}
+	}
+
+	.list-html-content {
+		.item-content {
+			.title-list h5 {
+				color: $thim_thim_font_title_color;
+			}
+		}
+	}
+
+	.footer {
+		aside {
+			&:last-child {
+				border-bottom: 0;
+			}
+		}
+	}
+
+	.site-header .navbar-nav li {
+		&:hover, &.current_page_item, &.current-menu-ancestor {
+			> a, > a > span {
+				color: $thim_thim_mobile_menu_text_hover_color;
+			}
+		}
+	}
+}
+
+/*******offcanvas-sidebar*********/
+.slider-sidebar {
+	background: $thim_thim_bg_offcanvas_sidebar_color;
+	color: $thim_thim_offcanvas_sidebar_text_color;
+
+	a {
+		color: $thim_thim_offcanvas_sidebar_text_color;
+
+		&:hover {
+			color: $thim_thim_offcanvas_sidebar_link_color;
+		}
+	}
+
+	.widget-title {
+		color: $thim_thim_offcanvas_sidebar_text_color;
+	}
+
+	ul li {
+		border-color: rgba(red($thim_thim_offcanvas_sidebar_text_color), green($thim_thim_offcanvas_sidebar_text_color), blue($thim_thim_offcanvas_sidebar_text_color), 0.6);;
+	}
+}
+
+/*******archive*********/
+.archive-content {
+	.share-post {
+		.date-meta {
+			background: $thim_thim_body_primary_color;
+		}
+
+		.social-share {
+			li {
+				a {
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	.content-inner {
+		.blog_title {
+			a {
+				color: $thim_thim_font_title_color;
+
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		.entry-meta {
+			li {
+				a {
+					color: $thim_thim_font_title_color;
+
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+
+			}
+		}
+
+	}
+}
+
+/* Paging Numberic*/
+.loop-pagination, .pagination {
+	li {
+		.page-numbers {
+			&:hover {
+				background: $thim_thim_body_primary_color;
+				color: $white;
+				border-color: $thim_thim_body_primary_color;
+			}
+
+			&.next, &.prev {
+				&:hover, &.current {
+					border-color: $thim_thim_body_primary_color;
+					background: $thim_thim_body_primary_color;
+					color: $white;
+				}
+			}
+		}
+
+		.page-numbers.current {
+			background: $thim_thim_body_primary_color;
+			border-color: $thim_thim_body_primary_color;
+			color: $white;
+		}
+	}
+}
+
+/* Comment post|page */
+.comments-area {
+	.comment-list-inner {
+		.comments-title {
+			color: $thim_thim_font_title_color;
+		}
+
+		li {
+			.comment-extra-info {
+				a {
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	.comment-respond {
+		.form-submit {
+			input#submit {
+				color: #FFF;
+				background: $thim_thim_body_primary_color;
+
+				&:hover {
+					background: darken($thim_thim_body_primary_color, 10%);
+				}
+			}
+		}
+	}
+
+	.comment-respond-area {
+		#respond.comment-respond {
+			.comment-reply-title {
+				color: $thim_thim_font_title_color;
+			}
+
+			.comment-form {
+				.comment-form-comment,
+				.comment-form-author,
+				.comment-form-email,
+				.comment-form-url {
+					input,
+					textarea {
+						&:focus {
+							border-color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+/********event**********/
+.elementor-widget-thim-event,
+.thim-widget-event {
+	.item-event {
+		.content-item {
+			h3 {
+				font-size: $thim_thim_font_h6_font_size;
+				line-height: $thim_thim_font_h6_line_height;
+
+				a {
+					color: $thim_thim_font_title_color;
+
+					&:hover {
+						color: $thim_thim_body_primary_color;;
+					}
+				}
+			}
+
+			.view-detail {
+				&:hover {
+					color: $thim_thim_font_title_color;
+				}
+			}
+
+			strong {
+				color: $thim_thim_font_title_color;
+			}
+		}
+
+		.content-right {
+			background: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.counter-block {
+	color: $thim_thim_font_title_color;
+}
+
+/************footer***************/
+.scrollup {
+	background: $thim_thim_body_primary_color;
+
+	&:hover {
+		background: darken($thim_thim_body_primary_color, 10%);
+		color: $white;
+	}
+}
+
+footer#colophon {
+	background-color: $thim_thim_footer_bg_color;
+	color: $thim_thim_footer_color_text;
+
+	.widget-title {
+		color: $thim_thim_footer_color_text;
+	}
+
+	a {
+		color: $thim_thim_footer_color_link;
+
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+
+		.fa {
+			color: $thim_thim_footer_color_text;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.row aside {
+		color: $thim_thim_footer_color_text;
+	}
+
+	.text-copyright {
+		color: $thim_thim_copyright_text_color;
+
+		a {
+			color: $thim_thim_copyright_link_color;
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+
+		.elementor-widget-thim-copyright,
+		.thim-widget-copyright {
+			.copyright-text {
+				color: $thim_thim_copyright_text_color;
+
+				a {
+					color: $thim_thim_copyright_link_color;
+				}
+			}
+		}
+
+		&.border-copyright {
+			border-top: 1px solid $thim_thim_footer_color_line;
+		}
+	}
+}
+
+.wrapper-line-heading {
+	.line-heading {
+		&:before, &:after, span:before, span:after {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.otw-wrapper {
+	.otreservations-submit {
+		background: $thim_thim_body_primary_color;
+		border-color: $thim_thim_body_primary_color;
+		color: $thim_thim_font_title_color;
+
+		&:hover {
+			background: $thim_thim_font_title_color;
+			border-color: $thim_thim_font_title_color;
+			color: $white;
+		}
+	}
+}
+
+input[type="radio"] {
+	&:checked:before {
+		background-color: $thim_thim_body_primary_color;
+	}
+}
+
+input[type="checkbox"] {
+	&:checked:before {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.filter-controls {
+	div, .filter {
+		color: $thim_thim_font_body_color;
+
+		&.active, &:hover {
+			color: $thim_thim_font_title_color;
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/********sidebar*******/
+.widget-area {
+	aside {
+		color: $thim_thim_font_body_color;
+
+		ul li:hover {
+			color: $thim_thim_body_primary_color;
+
+			a {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+
+		a {
+			color: $thim_thim_font_body_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+
+		.widget-title {
+			font-size: $thim_thim_font_body_font_size;
+			line-height: $thim_thim_font_body_line_height;
+
+			span {
+				background: $thim_thim_body_bg_color;
+			}
+		}
+	}
+}
+
+/* search */
+.search-form {
+	&:after {
+		color: $thim_thim_font_title_color;
+	}
+}
+
+.widget_categories, .widget_pages {
+	ul li {
+
+	}
+}
+
+.icon-box-title {
+	span {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+/***********file templates**************/
+
+.owl-carousel {
+	.owl-dots {
+		.owl-dot {
+			&.active, &:hover {
+				span {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.testimonial-footer {
+		.title-regency {
+			h6, h6 a {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.owl-buttons {
+		.owl-prev, .owl-next {
+			&:hover {
+				span {
+					color: $thim_thim_body_primary_color;
+
+					&:after {
+						background: $thim_thim_body_primary_color
+					}
+				}
+
+			}
+		}
+	}
+}
+
+/********tweets************/
+.border-widget {
+	.widget.so-panel {
+		.widget-title {
+			font-size: $thim_thim_font_body_font_size;
+		}
+	}
+}
+
+// widget list post
+.thim-list-posts.homepage {
+	.article-date {
+		background: $thim_thim_body_primary_color;
+	}
+
+	.link_read_more {
+		a {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/* Gallery - Category & Single Post */
+.flexslider {
+	.flex-direction-nav {
+		.flex-prev,
+		.flex-next {
+			&:before {
+				color: $thim_thim_font_title_color;
+			}
+
+			&:hover {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/**share networks**/
+.thim-social {
+	a {
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/********form-book-table********/
+.wpcf7-form {
+	.wpcf7-submit {
+		background: $thim_thim_body_primary_color;
+		border-color: $thim_thim_body_primary_color;
+		color: $white;
+
+		&:hover {
+			background: darken($thim_thim_body_primary_color, 10%);
+			border-color: darken($thim_thim_body_primary_color, 10%);
+		}
+	}
+
+	.wpcf7-form input, .wpcf7-form select, .wpcf7-form textarea {
+		&:focus {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/**********************/
+
+.top_site_main {
+	.page-title-wrapper {
+		.banner-wrapper {
+			h1, h2 {
+				font-size: $thim_thim_font_h1_font_size;
+			}
+
+			.heading__secondary {
+				font-family: $thim_thim_font_title_font_family;
+			}
+		}
+	}
+}
+
+// widget list html content
+.list-html-content {
+	.item-content {
+		.title-list h5 {
+			color: $thim_thim_font_title_color;
+		}
+	}
+}
+
+/**************main-bottom*************/
+.main-bottom {
+	background: $thim_thim_body_primary_color;
+}
+
+.tp-button {
+	&.primary {
+		background: $thim_thim_body_primary_color;
+		color: $white !important;
+		font-family: $thim_thim_font_body_font_family;
+
+		&:hover {
+			background: $thim_thim_font_title_color;
+		}
+	}
+}
+
+.widget_recent_entries {
+	ul li {
+		a {
+			color: $thim_thim_font_title_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+/*************woo**************/
+.quickview {
+	.product-info .right .product_meta {
+		a {
+			color: $thim_thim_font_title_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.product-cat {
+	li {
+		a {
+			color: $thim_thim_font_body_color;
+
+			&:hover, &.active {
+				color: $thim_thim_font_title_color;
+				border-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.product-grid {
+	.product__title {
+		a {
+			color: $thim_thim_font_title_color;
+			opacity: 0.9;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+
+			&.added_to_cart {
+				color: $white !important;
+			}
+		}
+
+		a.button.add_to_cart_button, .added_to_cart {
+			background: $thim_thim_body_primary_color !important;
+
+			&:before {
+				color: $white !important;
+			}
+
+			&:hover {
+				background: $thim_thim_body_primary_color !important;
+				color: $white !important;
+			}
+		}
+	}
+}
+
+/***********quick view***********/
+.quickview {
+	.product-info {
+		.right {
+			.product_title {
+				font-size: $thim_thim_font_h3_font_size;
+			}
+
+			.cart {
+				a {
+					color: $thim_thim_font_body_color;
+
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+
+				button.button {
+					background: $thim_thim_body_primary_color;
+					color: $white;
+
+					&:hover {
+						background: $thim_thim_font_title_color;
+						color: $white;
+					}
+				}
+			}
+		}
+	}
+
+	.quick-view-detail {
+		color: $thim_thim_font_body_color;
+
+		&:hover {
+			color: $thim_thim_body_primary_color;;
+		}
+	}
+}
+
+.product_thumb {
+	.onsale {
+		background: $thim_thim_body_primary_color !important;
+	}
+}
+
+/************single product****************/
+.product-cat {
+	li {
+		a {
+			color: $thim_thim_font_body_color;
+		}
+	}
+}
+
+.woocommerce, .woocommerce-page {
+	div.product {
+		.onsale {
+			background: $thim_thim_body_primary_color !important;
+		}
+
+		.product_title {
+			font-size: $thim_thim_font_h3_font_size;
+		}
+
+		.woocommerce-review-link {
+			color: $thim_thim_font_body_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+
+		.product_meta {
+			a {
+				color: $thim_thim_font_body_color;
+
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		form.cart {
+			margin-bottom: 15px;
+
+			.button {
+				background: $thim_thim_body_primary_color;
+				color: $thim_thim_font_title_color;
+
+				&:hover {
+					color: $white;
+					background: $thim_thim_font_title_color;
+				}
+			}
+		}
+
+		.woocommerce-tabs {
+			.tabs {
+				li {
+					a {
+
+					}
+				}
+
+				.active {
+					a {
+						border-bottom: 4px solid $thim_thim_body_primary_color;
+						color: $thim_thim_font_title_color !important;
+					}
+				}
+			}
+
+			.entry-content {
+				#reviews {
+					#comments {
+						.commentlist {
+							li {
+								.comment-text {
+									.meta {
+										strong {
+											color: $thim_thim_body_primary_color;
+										}
+									}
+								}
+							}
+						}
+					}
+
+					#review_form_wrapper {
+						.comment-form {
+							.form-submit {
+								.submit {
+									color: $white !important;
+									background-color: $thim_thim_body_primary_color;
+
+									&:hover {
+										color: $white !important;
+										background: darken($thim_thim_body_primary_color, 10%) !important;
+									}
+								}
+							}
+
+							p {
+								textarea,
+								input {
+									&:focus {
+										border-color: $thim_thim_body_primary_color;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.related-products, .upsells-products {
+			> h2 {
+				color: $thim_thim_font_title_color;
+
+				&:after {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.star-rating {
+		span::before {
+			color: $thim_thim_body_primary_color;
+		}
+
+		color: $thim_thim_body_primary_color;
+
+		&:before {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+
+	.comment-form-rating {
+		a {
+			color: $thim_thim_body_primary_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.woocommerce-shipping-calculator {
+		a {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+
+	div.woocommerce-message,
+	div.woocommerce-info {
+		border-top-color: $thim_thim_body_primary_color;
+
+		&:before {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+
+	.form-row label.checkbox a,
+	.woocommerce-info {
+		.showcoupon, .showlogin {
+			color: $thim_thim_body_primary_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.smicon-read {
+	color: $thim_thim_body_primary_color;
+	border-color: $thim_thim_body_primary_color;
+}
+
+.woocommerce-page {
+	.button {
+		color: $white !important;
+		background: $thim_thim_font_title_color !important;
+
+		&:hover {
+			color: $white !important;
+			background-color: $thim_thim_body_primary_color !important;
+		}
+	}
+
+	.product-name a {
+		color: $thim_thim_font_title_color;
+
+		&:hover {
+			color: $thim_thim_body_primary_color
+		}
+	}
+
+	.cart_totals {
+		h2 {
+			font-size: $thim_thim_font_h4_font_size;
+			text-transform: uppercase;
+			font-weight: normal;
+		}
+	}
+}
+
+// mini cart
+.widget_shopping_cart {
+	.minicart_hover {
+		.cart-items-number {
+			span.wrapper-items-number {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.widget_shopping_cart_content {
+		color: $thim_thim_font_title_color;
+
+		.cart_list.product_list_widget {
+			li {
+				a {
+					color: $thim_thim_font_title_color;
+
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+
+				dl {
+					color: $thim_thim_font_title_color;
+				}
+
+				span {
+					color: $thim_thim_font_title_color;
+				}
+
+				.quantity {
+					color: $thim_thim_font_title_color;
+				}
+			}
+
+			.empty {
+				color: $thim_thim_font_title_color !important;
+			}
+		}
+
+		.total {
+			color: $thim_thim_font_title_color !important;
+
+			span {
+				color: $thim_thim_font_title_color !important;
+			}
+		}
+
+		.buttons {
+			a {
+				color: $thim_thim_font_title_color;
+				border: 2px solid $thim_thim_font_title_color;
+
+				&:hover {
+					background: $thim_thim_body_primary_color;
+					border-color: $thim_thim_body_primary_color;
+				}
+			}
+
+			.checkout {
+				background: $thim_thim_body_primary_color !important;
+				border-color: $thim_thim_body_primary_color;
+
+				&:hover {
+					background: $thim_thim_font_title_color !important;
+					border-color: $thim_thim_font_title_color;
+					color: #fff !important;
+				}
+			}
+		}
+	}
+}
+
+.tp-bullets.preview4 {
+	.bullet.selected, .bullet.selected:hover {
+		background: $thim_thim_body_primary_color !important;
+		width: 10px !important;
+		height: 10px !important;
+		border: none !important;
+	}
+}
+
+.custom-gallery {
+	.filter-controls a {
+		&:hover, &.active {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.list-check li {
+	&:before {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.widget-title {
+	&:after {
+		background: $thim_thim_body_primary_color;
+	}
+}
+
+.article-title-wrapper {
+	h5 a {
+		color: $thim_thim_font_title_color;
+
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.sale-off {
+	p {
+		color: $white;
+
+		&.learn-more {
+			a {
+				background: $thim_thim_body_primary_color;
+				color: $white;
+
+				&:hover {
+					background: darken($thim_thim_body_primary_color, 10%);
+				}
+			}
+		}
+
+		&.heading {
+			font-family: $thim_thim_font_title_font_family;
+		}
+	}
+
+	&.banner-round {
+		p {
+			color: $thim_thim_font_title_color;
+		}
+	}
+}
+
+//Widget testimonial
+.testimonial_content {
+	border: 1px solid $border-color;
+}
+
+.testimonial-footer {
+	.avatar-testimonial {
+		background: $white;
+	}
+}
+
+//Savings box
+.thim-savings-home-4 {
+	.sale-off {
+		p {
+			color: $white;
+		}
+	}
+}
+
+//Thime service
+.wrapper-box-icon.has_custom_image {
+	.sc-heading {
+		.heading__primary {
+			color: $thim_thim_font_title_color;
+
+			a {
+				color: $thim_thim_font_title_color;
+
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.elementor-widget-thim-icon-box,
+.thim-widget-icon-box {
+	.smicon-read {
+		color: $thim_thim_body_primary_color;
+		border-color: $thim_thim_body_primary_color;
+
+		&:hover {
+			color: $white;
+			background: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.hb_room_carousel_container {
+	.title {
+		a {
+			color: $thim_thim_font_title_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.price {
+		color: $white;
+	}
+
+	.item {
+		.media {
+			a:before {
+				border-bottom-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.span {
+		font-family: $thim_thim_font_title_font_family;
+	}
+}
+
+.hotel-booking-search {
+	form {
+		button {
+			background: $thim_thim_body_primary_color;
+			border-color: $thim_thim_body_primary_color;
+
+			&:hover {
+				background: darken($thim_thim_body_primary_color, 10%);
+				border-color: darken($thim_thim_body_primary_color, 10%);
+			}
+		}
+	}
+}
+
+.counter-box {
+	color: $white;
+
+	&:before {
+		background: $thim_thim_body_primary_color;
+	}
+}
+
+.subscribe {
+	.mc4wp-form {
+		input[type="submit"] {
+			background: $thim_thim_body_primary_color;
+
+			&:hover {
+				background: darken($thim_thim_body_primary_color, 10%);
+			}
+		}
+	}
+}
+
+.newletter {
+	.mc4wp-form {
+		input[type="submit"] {
+			background: $thim_thim_body_primary_color;
+
+			&:hover {
+				background: darken($thim_thim_body_primary_color, 10%);
+			}
+		}
+
+		input[type=email],
+		input[type=text] {
+			&:focus {
+				border: 1px solid $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.thim-color {
+	color: $thim_thim_body_primary_color;
+}
+
+.thim-bg-color {
+	background-color: $thim_thim_body_primary_color;
+}
+
+.thim-color-title {
+	color: $thim_thim_font_title_color;
+}
+
+.thim-bg-black {
+	background-color: #000;
+}
+
+#sidebar {
+	.hotel-booking-search {
+		form {
+			button {
+				background-color: $thim_thim_font_title_color;
+
+				&:hover {
+					background-color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.wrapper-line-heading {
+		.heading__primary {
+			color: $thim_thim_font_title_color;
+		}
+
+		.line-heading {
+			&:before,
+			&:after,
+			span:before,
+			span:after {
+				border-color: $thim_thim_font_title_color;
+			}
+		}
+	}
+
+	.elementor-widget-thim-search-room,
+	.thim-widget-search-room {
+		.wrapper-line-heading {
+			.heading__primary {
+				color: $white;
+			}
+
+			.line-heading {
+				&:before,
+				&:after,
+				span:before,
+				span:after {
+					border-color: $white;
+				}
+			}
+		}
+	}
+}
+
+body {
+	.hb_button {
+		background: $thim_thim_body_primary_color;
+
+		&:hover {
+			background: darken($thim_thim_body_primary_color, 10%);
+		}
+
+		&.update,
+		&.hb_view_cart {
+			background: $thim_thim_font_title_color;
+
+			&:hover {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	#fetch-customer-info {
+		background: $thim_thim_font_title_color;
+
+		&:hover {
+			background: $thim_thim_body_primary_color;
+		}
+	}
+
+	.rooms {
+		.hb_room {
+			.media {
+				a:before {
+					border-bottom-color: $thim_thim_body_primary_color;
+				}
+			}
+
+			.title {
+				h4 {
+					a {
+						color: $thim_thim_font_title_color;
+
+						&:hover {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hb_single_room {
+		.title {
+			h4 {
+				a {
+					color: $thim_thim_font_title_color;
+				}
+			}
+		}
+
+		.hb_room_gallery {
+			.camera_thumbs {
+				.camera_thumbs_cont {
+					ul {
+						li.cameracurrent {
+							&:before {
+								border-color: $thim_thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.hb_single_room_details {
+			.hb_single_room_tabs {
+				> li {
+					a {
+						&.active {
+							color: $thim_thim_font_title_color;
+
+							&:after {
+								background: $thim_thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+
+		.price {
+			color: $thim_thim_body_primary_color;
+
+			span {
+				&.title-price {
+					color: $thim_thim_font_title_color;
+				}
+			}
+		}
+
+		#reviews {
+			h2 {
+				color: $thim_thim_font_title_color;
+			}
+
+			.reply-title {
+				color: $thim_thim_font_title_color;
+			}
+
+			#review_form_wrapper {
+				form {
+					.form-submit {
+						input[type="submit"] {
+							background: $thim_thim_body_primary_color;
+							color: $white;
+
+							&:hover {
+								background: $thim_thim_font_title_color;
+							}
+						}
+					}
+
+					p {
+						textarea {
+							&:focus {
+								border: 1px solid $thim_thim_body_primary_color;
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hb_related_other_room {
+		> .title {
+			color: $thim_thim_font_title_color;
+
+			&:after {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+
+		.navigation {
+			.prev,
+			.next {
+				span[class*="pe-"]:hover {
+					&:before {
+						color: $thim_thim_body_primary_color;
+					}
+
+					&:after {
+						background: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	.rooms-pagination {
+		.page-numbers {
+			li {
+				span {
+					&.current {
+						border-color: $thim_thim_body_primary_color;
+						background: $thim_thim_body_primary_color;
+						color: $white;
+					}
+				}
+
+				a {
+					&:hover {
+						background: $thim_thim_body_primary_color;
+						color: $white;
+						border-color: $thim_thim_body_primary_color;
+					}
+
+					&.prev,
+					&.next {
+
+						&:hover {
+							background: $thim_thim_body_primary_color;
+							color: $white;
+							border-color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.hb_room_carousel_container {
+		.item {
+			.title {
+				h4 {
+					a {
+						color: $thim_thim_font_title_color;
+
+						&:hover {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+
+		.text_link {
+			a {
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		.navigation {
+			.prev,
+			.next {
+				span[class*="pe-"]:hover {
+					&:before {
+						color: $thim_thim_body_primary_color;
+					}
+
+					&:after {
+						background: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+
+	#hotel-booking-results {
+		.hb-search-results {
+			a {
+				color: $thim_thim_body_primary_color;
+
+				&:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+
+			> .hb-room {
+				.hb-room-name {
+					a {
+						&:hover {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+
+				.hb_search_item_price {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		form {
+			.hb_button.hb_checkout,
+			button.hb_add_to_cart,
+			button[type="submit"] {
+				background: $thim_thim_body_primary_color;
+				color: $white;
+
+				&:hover {
+					background: darken($thim_thim_body_primary_color, 10%);
+				}
+			}
+		}
+	}
+
+	#hotel-booking-payment,
+	#hotel-booking-cart {
+		.hb_remove_cart_item {
+			color: $thim_thim_font_title_color;
+
+			&:hover {
+				background: $thim_thim_body_primary_color;
+				color: $white;
+			}
+		}
+
+		a {
+			color: $thim_thim_body_primary_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+
+		button {
+			&#hb-apply-coupon {
+				background: $thim_thim_font_title_color;
+
+				&:hover {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		.hb_button.hb_checkout,
+		button[type="submit"],
+		button[type="button"] {
+			background: $thim_thim_body_primary_color;
+			color: $white;
+
+			&:hover {
+				background: darken($thim_thim_body_primary_color, 10%);
+			}
+
+			&.update,
+			&#fetch-customer-info {
+				background: $thim_thim_font_title_color;
+
+				&:hover {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		input[type=email],
+		input[type=text],
+		input[type=number],
+		textarea {
+			&:focus {
+				border-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.rating-input:before,
+	.rating-input span:before {
+		color: $thim_thim_body_primary_color;
+	}
+
+	&.tp-hotel-booking, &.wp-hotel-booking {
+		.star-rating:before,
+		.star-rating span:before {
+			color: $thim_thim_body_primary_color;
+		}
+
+		#reviews {
+			.commentlist {
+				li {
+					&.comment {
+						border-color: $border-color;
+					}
+				}
+			}
+		}
+	}
+
+	.tp-hotel-booking, .wp-hotel-booking {
+		.star-rating:before,
+		.star-rating span:before {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+
+	.hotel_booking_mini_cart {
+		.hb_mini_cart_item {
+			.hb_mini_cart_remove {
+				&:hover {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+
+			.hb_mini_cart_price {
+				span {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.hb-booking-room-details {
+		.hb_search_room_item_detail_price_close:hover {
+			background: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.bg-video-play {
+	&:hover {
+		background: $thim_thim_body_primary_color;
+	}
+}
+
+//Top slider
+.thim-heading-slider {
+	font-family: $thim_thim_font_title_font_family !important;
+}
+
+//Thim select language
+.thim-select-language {
+	.language {
+		ul {
+			li {
+				a {
+					color: $thim_thim_font_body_color;
+
+					&:hover {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+body .ui-datepicker.ui-widget .ui-datepicker-calendar .ui-state-default:hover {
+	background-color: $thim_thim_body_primary_color;
+}
+
+.contact-support {
+	.contact-text {
+		color: $thim_thim_font_title_color;
+	}
+}
+
+body {
+	#preload {
+		background-color: $thim_thim_preload_bg_color;
+
+		.loading-inner .loading {
+			background: $thim_thim_body_primary_color;
+		}
+	}
+
+	.mfp-image-holder .mfp-close, .mfp-inline-holder .mfp-close {
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/** tp holtel extra **/
+.hb_addition_package_extra {
+	a.hb_package_toggle {
+		&:hover {
+			color: $thim_thim_body_primary_color !important;
+		}
+	}
+}
+
+.hb_extra_detail_price strong {
+	color: $thim_thim_body_primary_color !important;
+}
+
+.dk-select {
+	.dk-selected {
+		&:focus {
+			border-color: $thim_thim_body_primary_color;
+
+			&:before {
+				border-top-color: $thim_thim_body_primary_color;
+			}
+		}
+
+	}
+
+	&.dk-select-open-up,
+	&.dk-select-open-down {
+		.dk-selected {
+			&:before {
+				border-bottom-color: $thim_thim_body_primary_color;
+			}
+		}
+
+		.dk-select-options {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+
+	&.dk-select-open-down {
+		.dk-selected {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+
+	.dk-select-options {
+		.dk-option-highlight {
+			background-color: $thim_thim_body_primary_color;
+			color: #ffffff;
+		}
+	}
+}
+
+.dk-option-selected {
+	background-color: $thim_thim_body_primary_color;
+}
+
+input {
+	&[type=text],
+	&[type=number],
+	&[type=email] {
+		&:focus {
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+textarea {
+	&:focus {
+		border-color: $thim_thim_body_primary_color;
+	}
+}
+
+.ui-datepicker.ui-widget {
+	border-color: $thim_thim_body_primary_color;
+}
+
+/* Setting bar */
+#tp_style_selector {
+	.tp-buy-theme {
+		a {
+			background: $thim_thim_body_primary_color;
+
+			&:hover {
+				background: darken($thim_thim_body_primary_color, 10%);
+			}
+		}
+	}
+
+	.tp-chameleon-more-demo {
+		background: $thim_thim_body_primary_color;
+
+		&:hover {
+			background: darken($thim_thim_body_primary_color, 10%);
+		}
+	}
+
+	.input-box {
+		.tp-btn {
+			&:hover {
+				border-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.tp_demo {
+		&:hover,
+		&.active {
+			border-color: $thim_thim_body_primary_color;
+
+			.sub_title {
+				background-color: lighten($thim_thim_body_primary_color, 10%);
+			}
+		}
+	}
+}
+
+button.ui-datepicker-trigger {
+	i {
+		&:hover {
+			color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+/* Header V2 */
+.site-header.header_v2 {
+	.inner-header-top {
+		font-size: $thim_thim_header_typography_font_size;
+		font-weight: $thim_thim_header_typography_font_weight;
+
+		ul {
+			li {
+				a {
+					color: $thim_thim_header_text_color;
+				}
+
+				&.current-lang a,
+				&.active a,
+				a:hover {
+					color: $thim_thim_header_text_color_hover;
+				}
+			}
+		}
+
+		.thim-social {
+			a {
+				font-size: $thim_thim_header_typography_font_size;
+			}
+		}
+	}
+
+	.navigation {
+		.table-center {
+			.inner-navigation {
+				.navbar-nav > li {
+					&:after {
+						background: $thim_thim_main_menu_text_hover_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+/* End: Header V2 */
+
+.thim-title-color {
+	color: $thim_thim_font_title_color;
+
+	&:hover {
+		color: $thim_thim_body_primary_color;
+	}
+}
+
+.single-hb_room {
+	#carousel-gallery-room {
+		.flex-viewport {
+			ul {
+				li.flex-active-slide {
+					img {
+						border: 2px solid $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+	}
+}
+
+.rooms .hb_room .summary .room-types a {
+	color: $thim_thim_body_primary_color
+}
+
+.rooms .hb_room .media .actions .action-btn a {
+	background: rgba($thim_thim_body_primary_color, 0.9)
+}
+.rooms .hb_room .media .actions .action-btn a:hover {
+	background: darken($thim_thim_body_primary_color, 15%)
+}
+
+.rooms .hb_room .price {
+	font-family: $thim_thim_font_title_font_family;
+	color: $thim_thim_font_title_color
+}
+
+.rooms .hb_room .price span.title-price, .rooms .hb_room .summary .description {
+	font-family: $thim_thim_font_body_font_family;
+	color: $thim_thim_font_body_color;
+}
+
+.woocommerce {
+	nav.woocommerce-MyAccount-navigation {
+		ul {
+			li {
+				&.is-active, &:hover {
+					background: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.rooms.tp-hotel-booking .thim-room-list .hb_room .footer-content-room .actions .action-btn a {
+	background: $thim_thim_body_primary_color;
+	border: 1px solid $thim_thim_body_primary_color;
+}
+
+.rooms.tp-hotel-booking .thim-room-list .hb_room .footer-content-room .actions .action-btn a:hover {
+	color: $thim_thim_body_primary_color;
+	border: 1px solid $thim_thim_body_primary_color;
+}
+
+//New demo
+#masthead.header_v3 {
+	.navigation {
+		.tm-flex {
+			.header-left {
+				padding-left: calc(#{$thim_thim_width_logo} + 150px); //= width-logo + 120 + 30
+				li {
+					p {
+						color: $thim_thim_main_menu_text_color;
+
+						span {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+
+			.header-right {
+				.thim-search-wrapper {
+					.thim-search-form {
+						.search-form {
+							.search-field {
+								color: $thim_thim_main_menu_text_color;
+								border-bottom: 4px solid $thim_thim_body_primary_color;
+							}
+
+							.search-notice {
+								color: $thim_thim_body_primary_color;
+							}
+						}
+					}
+
+					&:hover {
+						.search-button {
+							background: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.wpcf7-form {
+	.contact-form-new {
+		.small-text {
+			color: $thim_thim_font_body_color;
+		}
+
+		input, textarea {
+			&.wpcf7-submit {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+
+		.button {
+			background: $thim_thim_body_primary_color;
+			border: 1px solid $thim_thim_body_primary_color;
+
+			&:hover {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.thim-sc-video-box {
+	.box-inner {
+		&:before {
+			border-color: $thim_thim_body_primary_color;
+		}
+
+		.background-title {
+			color: rgba($thim_thim_body_primary_color, 0.25);
+		}
+	}
+}
+
+.elementor-widget-thim-box,
+.thim-widget-box {
+	.box_image {
+		&.style_2 {
+			&:after {
+				background: rgba($thim_thim_body_primary_color, 0.7);
+			}
+		}
+	}
+}
+
+.elementor-widget-thim-gallery-images,
+.thim-widget-gallery-images {
+	.thim-gallery-images-column {
+		.text_wellcome {
+			h3 {
+				color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+}
+
+.elementor-widget-thim-heading,
+.thim-widget-heading {
+	.style_new.sc-heading.article_heading {
+		.button-heading {
+			a {
+				background: $thim_thim_body_primary_color;
+
+				&:hover {
+					border: 1px solid $thim_thim_body_primary_color;
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+}
+
+.elementor-widget-thim-hotel-room,
+.thim-widget-hotel-room {
+	.style_new {
+		.navigation {
+			.prev {
+				&:hover {
+					border: 1px solid $thim_thim_body_primary_color;
+					color: $thim_thim_body_primary_color;
+				}
+			}
+
+			.next {
+				&:hover {
+					border: 1px solid $thim_thim_body_primary_color;
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+
+		.hb_room_carousel_container {
+			.hb_room_carousel {
+				.rooms {
+					.hb_room {
+						.summary {
+							.media {
+								.actions {
+									a {
+										img {
+											background: $thim_thim_body_primary_color;
+										}
+									}
+
+									&:hover {
+										a {
+											background: $thim_thim_body_primary_color;
+										}
+									}
+								}
+							}
+
+							.footer-content-room {
+								.price {
+									.price_value {
+										color: $thim_thim_body_primary_color;
+									}
+
+									.unit {
+										color: $thim_thim_body_primary_color;
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.testimonial_style_new {
+	.sc-testimonials {
+		.testimonial_content {
+			.title-regency {
+				h6 {
+					a {
+						color: $thim_thim_body_primary_color;
+						font-family: $thim_thim_font_body_font_family;
+					}
+				}
+
+				.regency {
+					color: $thim_thim_font_body_color;
+					font-family: $thim_thim_font_body_font_family;
+				}
+			}
+
+			.content-text {
+				font-family: $thim_thim_font_title_font_family;
+				color: $thim_thim_font_title_color;
+			}
+		}
+	}
+}
+
+.thim_tours_slider {
+	ul {
+		li {
+			.tour_price {
+				background: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+	.navigation {
+		.prev {
+			&:hover {
+				background: $thim_thim_body_primary_color;
+				border-color: $thim_thim_body_primary_color;
+			}
+		}
+
+		.next {
+			&:hover {
+				background: $thim_thim_body_primary_color;
+				border-color: $thim_thim_body_primary_color;
+			}
+		}
+	}
+
+}
+
+#masthead.header_v3 {
+	&.affix {
+		.navigation {
+			.tm-flex {
+				.header-left {
+					li {
+						p {
+							color: $thim_thim_sticky_main_menu_text_color;
+						}
+					}
+				}
+
+				.header-right {
+					.thim-search-wrapper {
+						.search-button {
+							color: $thim_thim_sticky_main_menu_text_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+.thim-holiday {
+	background-color: $thim_thim_body_primary_color;
+
+	button {
+		&:hover {
+			background: $thim_thim_body_primary_color;
+			border-color: $thim_thim_body_primary_color;
+		}
+	}
+}
+
+.thim-column-posts {
+	.post-item {
+		li {
+			.article-title-wrapper {
+				.button_read_more {
+					a {
+						border-color: $thim_thim_body_primary_color;
+						color: $thim_thim_body_primary_color;
+
+						&:hover {
+							background: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+//old layout widget room
+.hb_old_layout .rooms .hb_room .media:before {
+	border-bottom: 137px solid $thim_thim_body_primary_color;
+}
+
+//menu column
+.navbar-nav li .sub-menu[class*=tc-columns-] > ul > li .sub-menu li:hover a span {
+	color: $thim_thim_sub_menu_text_color_hover;
+}
+
+//color background menu header type 2
+.site-header.header_v2 .navigation .width-navigation, .header_v2 .menu-main-menu {
+	background-color: $thim_thim_bg_main_menu_color;
+}
+
+#contact-form-registration .wpcf7 form input:focus {
+	border: 1px solid $thim_thim_body_primary_color;
+}
+
+.thim_tours_slider ul li .tour_content h3.tour_name a:hover {
+	color: $thim_thim_body_primary_color;
+}
+
+//color new gutenberg
+.has-text-color {
+	&.has-primary-color {
+		color: $thim_thim_body_primary_color !important;
+	}
+
+	&.has-title-color {
+		color: $thim_thim_font_title_color !important;
+	}
+}
+
+.has-background {
+	&.has-primary-background-color {
+		background-color: $thim_thim_body_primary_color !important;
+	}
+
+	&.has-title-background-color {
+		background-color: $thim_thim_font_title_color !important;
+	}
+}
+
+.has-background-dim {
+	&.has-primary-background-color:before {
+		background-color: $thim_thim_body_primary_color !important;
+	}
+
+	&.has-title-background-color:before {
+		background-color: $thim_thim_font_title_color !important;
+	}
+}
+
+.testimonial-item-archive .side-right .blockquote a {
+	color: $thim_thim_body_primary_color;
+}
+
+.testimonial-item-archive .side-right .blockquote {
+	color: $thim_thim_body_primary_color;
+}
+
+.testimonial-item-archive .side-right .blockquote:before {
+	color: $thim_thim_body_primary_color;
+	font-family: $thim_thim_font_title_font_family;
+}
+
+div.event-list {
+	.feature-event {
+		.image-event {
+			.slide-image {
+				.wrap-arrow-slick {
+					.arow-slick:hover {
+						background: $thim_thim_body_primary_color;
+					}
+				}
+			}
+		}
+
+		.text-event {
+			.tp_event_counter {
+				.countdown-row {
+					.countdown-section {
+						.countdown-amount {
+							font-family: $thim_thim_font_title_font_family;
+						}
+					}
+				}
+			}
+
+			.title-event {
+				a:hover {
+					color: $thim_thim_body_primary_color;
+				}
+			}
+		}
+	}
+
+	.item-event {
+		.text-event {
+			.info-event {
+				span {
+					i {
+						color: $thim_thim_body_primary_color;
+					}
+				}
+			}
+
+			.author-event {
+				.text-author {
+					a {
+						color: $thim_thim_body_primary_color;
+
+						&:hover {
+							color: $thim_thim_body_primary_color;
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.load-more-events {
+		background: $thim_thim_body_primary_color;
+
+		&:hover {
+			background: darken($thim_thim_body_primary_color, 10%);
+		}
+	}
+}
+
+/* short code main slider */
+.element-main-slider{
+	.content-title{
+		.title{
+			font-family: $thim_thim_font_title_font_family;
+		}
+	}
+}
+.header_v1{
+	&.affix{
+		.navigation{
+			.menu-left{
+				color: $thim_thim_sticky_main_menu_text_color;
+				.thim-select-language{
+					.language{
+						border-bottom: 1px solid $thim_thim_sticky_main_menu_text_color;
+					}
+				}
+				.thim-social{
+					a{
+						color: $thim_thim_sticky_main_menu_text_color;
+					}
+				}
+			}
+		}
+	}
+	.navigation{
+		.menu-left{
+			color: $thim_thim_main_menu_text_color;
+			.thim-select-language{
+				.language{
+					border-bottom: 1px solid $thim_thim_main_menu_text_color;
+				}
+			}
+			.thim-social{
+				a{
+					color: $thim_thim_main_menu_text_color;
+				}
+			}
+		}
+	}
+}

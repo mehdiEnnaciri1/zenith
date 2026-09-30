@@ -1,0 +1,25 @@
+.top-header {
+	aside {
+		display:       inline-block;
+		margin-left: 20px;
+		padding-bottom: 3px;
+		line-height: 27px;
+		&.widget_shopping_cart{
+			padding-bottom: 4px;
+		}
+	}
+	a{
+		.fa{
+			&.fa-facebook{
+				&:hover{
+					color: #3b5999;
+				}
+			}
+			&.fa-twitter{
+				&:hover{
+					color: #61cae7;
+				}
+			}
+		}
+	}
+}

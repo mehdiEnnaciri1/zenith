@@ -1,0 +1,78 @@
+/*!
+/*
+Theme Name: Sailing
+Theme URI: http://sailing.thimpress.com/
+Author: ThimPress
+Author URI: http://thimpress.com
+Description: Sailing Hotel
+Version: 4.1.9
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: two-columns, three-columns, left-sidebar, right-sidebar, fixed-layout, responsive-layout, custom-background, custom-header, custom-menu, editor-style, post-formats, rtl-language-support, sticky-post, theme-options, translation-ready, accessibility-ready
+Text Domain: sailing
+Domain Path: /languages/
+*/
+
+@import "bootstrap";
+@import "variables";
+
+@import "mixins/elements";
+@import "select2/core";
+
+@import "reset-style";
+
+@import "animate";
+
+@import "magnific-popup";
+
+@import 'pe-icon-7-stroke';
+@import "ionicons/ionicons";
+@import "fontawesome/font-awesome";
+@import "line-awesome/line-awesome";
+@import "owl-carousel/owl-carousel";
+
+@import "header/header";
+@import "header/header-drawer";
+@import "header/main-menu";
+@import "header/offcanvas-sidebar";
+@import "header/toolbar";
+@import "new-demo/header-v3";
+
+@import "footer";
+@import "calendar";
+@import "heading";
+@import "event";
+
+@import "widget-iconbox";
+@import "widget-testimonial";
+
+@import "new-demo/widget-heading";
+@import "new-demo/widget-room-slider";
+@import "new-demo/widget-box";
+@import "new-demo/widget-gallery-image";
+@import "new-demo/widget-tour-slider";
+@import "new-demo/widget-testimonial";
+@import "new-demo/widget-button";
+@import "new-demo/template-new";
+@import "new-demo/widget-search-room";
+@import "new-demo/widget-column-post";
+@import "new-demo/footer-new";
+@import "new-demo/widget-main-slider";
+@import "new-demo/widget-info-sale";
+@import "new-demo/widget-list-video";
+@import "new-demo/widget-list-post";
+@import "templates";
+@import "woocommerce";
+@import "mini-cart";
+@import "quickview";
+@import "room-detail";
+@import "archive";
+@import "sidebar";
+@import "widget-search-hb";
+@import "dropkick";
+@import "effect";
+@import "hb-room-carousel";
+
+@import "event-plugin/events";
+
+@import "responsive";

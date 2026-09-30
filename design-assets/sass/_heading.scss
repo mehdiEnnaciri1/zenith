@@ -1,0 +1,128 @@
+.sc-heading {
+	text-align:     center;
+	padding-top:    60px;
+	padding-bottom: 43px;
+	&.wrapper-line-heading{
+		padding-bottom: 10px;
+	}
+}
+
+.heading__secondary {
+	position:       relative;
+	font-weight:    normal;
+	letter-spacing: 0;
+	text-transform: none;
+	padding:        0 30px;
+	margin:         0 -30px;
+}
+
+.heading__primary {
+	margin:      0;
+	position:    relative;
+	line-height: 1em;
+
+}
+
+.wrapper-line-heading {
+	padding-bottom: 50px;
+	.line-heading {
+ 		width:   75px;
+		height:  7px;
+		margin:  22px auto 0 auto;
+		display: inline-block;
+		position: relative;
+		overflow: hidden;
+		&:before,&:after,span:before,span:after {
+			content: "";
+			width: 30px;
+			border-width: 1px 0;
+			border-style: solid;
+			height: 12px;
+			display: inline-block;
+			-moz-transform: rotate(-38deg);
+			-webkit-transform: rotate(-38deg);
+			-ms-transform: rotate(-38deg);
+			-o-transform: rotate(-38deg);
+			transform: rotate(-38deg);
+			position: absolute;
+			left: 0;
+		}
+		&:after,span:after{
+			-moz-transform: rotate(38deg);
+			-webkit-transform: rotate(38deg);
+			-ms-transform: rotate(38deg);
+			-o-transform: rotate(38deg);
+			transform: rotate(38deg);
+			left: 14px;
+		}
+		span:before{
+			left: 34px;
+		}
+		span:after{
+			left: 48px;
+		}
+	}
+	.heading__primary{
+    font-size: 36px;
+    font-weight: 600;
+  }
+	.heading__secondary{
+	  margin-top: 8px;
+	}
+}
+
+.otreservations-description {
+	text-align: center;
+}
+.title-center{
+	text-align: center;
+	.widget-title{
+		&::after{
+			left: 50%;
+			transform: translateX(-50%);
+		}
+	}
+}
+.title-left{
+	text-align: left;
+}
+.title-right{
+	text-align: right;
+	&::after{
+		left: unset;
+		right: 0;
+	}
+}
+.widget-title {
+	display: inline-block;
+	position:      relative;
+	margin-bottom: 55px;
+	&:after {
+		width:    60px;
+		height:   1px;
+		content:  "";
+		position: absolute;
+		bottom:   -20px;
+		left:     0;
+	}
+	//.instagram-slider &{
+	  //margin-bottom: 45px;
+	//}
+}
+
+.footer{
+	.widget-title{
+		margin-bottom: 20px;
+		&:after{
+			display: none;
+		}
+	}
+}
+
+.sidebar {
+	.widget-title {
+		&:after {
+			display: none;
+		}
+	}
+}

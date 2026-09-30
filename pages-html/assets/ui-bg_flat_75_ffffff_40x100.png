@@ -1,0 +1,741 @@
+<!DOCTYPE html><html lang="fr-FR" class=" js flexbox canvas canvastext webgl no-touch geolocation postmessage no-websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers no-applicationcache svg inlinesvg smil svgclippaths"><head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<link rel="profile" href="http://gmpg.org/xfn/11">
+	<link rel="pingback" href="http://127.0.0.1:8080/xmlrpc.php">
+		<script type="text/javascript">
+		/* <![CDATA[ */
+		var ajaxurl = "http://127.0.0.1:8080/wp-admin/admin-ajax.php";
+		/* ]]> */
+	</script>
+	<title>Page non trouvée – Lezenithhotel</title>
+<meta name="robots" content="max-image-preview:large">
+<link href="https://fonts.gstatic.com" crossorigin="" rel="preconnect">
+<link rel="alternate" type="application/rss+xml" title="Lezenithhotel » Flux" href="http://127.0.0.1:8080/feed/">
+<link rel="alternate" type="application/rss+xml" title="Lezenithhotel » Flux des commentaires" href="http://127.0.0.1:8080/comments/feed/">
+<script type="text/javascript">
+/* <![CDATA[ */
+window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/14.0.0\/svg\/","svgExt":".svg","source":{"concatemoji":"http:\/\/127.0.0.1:8080\/wp-includes\/js\/wp-emoji-release.min.js?ver=6.4.3"}};
+/*! This file is auto-generated */
+!function(i,n){var o,s,e;function c(e){try{var t={supportTests:e,timestamp:(new Date).valueOf()};sessionStorage.setItem(o,JSON.stringify(t))}catch(e){}}function p(e,t,n){e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(t,0,0);var t=new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data),r=(e.clearRect(0,0,e.canvas.width,e.canvas.height),e.fillText(n,0,0),new Uint32Array(e.getImageData(0,0,e.canvas.width,e.canvas.height).data));return t.every(function(e,t){return e===r[t]})}function u(e,t,n){switch(t){case"flag":return n(e,"\ud83c\udff3\ufe0f\u200d\u26a7\ufe0f","\ud83c\udff3\ufe0f\u200b\u26a7\ufe0f")?!1:!n(e,"\ud83c\uddfa\ud83c\uddf3","\ud83c\uddfa\u200b\ud83c\uddf3")&&!n(e,"\ud83c\udff4\udb40\udc67\udb40\udc62\udb40\udc65\udb40\udc6e\udb40\udc67\udb40\udc7f","\ud83c\udff4\u200b\udb40\udc67\u200b\udb40\udc62\u200b\udb40\udc65\u200b\udb40\udc6e\u200b\udb40\udc67\u200b\udb40\udc7f");case"emoji":return!n(e,"\ud83e\udef1\ud83c\udffb\u200d\ud83e\udef2\ud83c\udfff","\ud83e\udef1\ud83c\udffb\u200b\ud83e\udef2\ud83c\udfff")}return!1}function f(e,t,n){var r="undefined"!=typeof WorkerGlobalScope&&self instanceof WorkerGlobalScope?new OffscreenCanvas(300,150):i.createElement("canvas"),a=r.getContext("2d",{willReadFrequently:!0}),o=(a.textBaseline="top",a.font="600 32px Arial",{});return e.forEach(function(e){o[e]=t(a,e,n)}),o}function t(e){var t=i.createElement("script");t.src=e,t.defer=!0,i.head.appendChild(t)}"undefined"!=typeof Promise&&(o="wpEmojiSettingsSupports",s=["flag","emoji"],n.supports={everything:!0,everythingExceptFlag:!0},e=new Promise(function(e){i.addEventListener("DOMContentLoaded",e,{once:!0})}),new Promise(function(t){var n=function(){try{var e=JSON.parse(sessionStorage.getItem(o));if("object"==typeof e&&"number"==typeof e.timestamp&&(new Date).valueOf()<e.timestamp+604800&&"object"==typeof e.supportTests)return e.supportTests}catch(e){}return null}();if(!n){if("undefined"!=typeof Worker&&"undefined"!=typeof OffscreenCanvas&&"undefined"!=typeof URL&&URL.createObjectURL&&"undefined"!=typeof Blob)try{var e="postMessage("+f.toString()+"("+[JSON.stringify(s),u.toString(),p.toString()].join(",")+"));",r=new Blob([e],{type:"text/javascript"}),a=new Worker(URL.createObjectURL(r),{name:"wpTestEmojiSupports"});return void(a.onmessage=function(e){c(n=e.data),a.terminate(),t(n)})}catch(e){}c(n=f(s,u,p))}t(n)}).then(function(e){for(var t in e)n.supports[t]=e[t],n.supports.everything=n.supports.everything&&n.supports[t],"flag"!==t&&(n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&n.supports[t]);n.supports.everythingExceptFlag=n.supports.everythingExceptFlag&&!n.supports.flag,n.DOMReady=!1,n.readyCallback=function(){n.DOMReady=!0}}).then(function(){return e}).then(function(){var e;n.supports.everything||(n.readyCallback(),(e=n.source||{}).concatemoji?t(e.concatemoji):e.wpemoji&&e.twemoji&&(t(e.twemoji),t(e.wpemoji)))}))}((window,document),window._wpemojiSettings);
+/* ]]> */
+</script>
+<link rel="stylesheet" id="sb_instagram_styles-css" href="../css/sbi-styles.min.css" type="text/css" media="all">
+<style id="wp-emoji-styles-inline-css" type="text/css">
+
+	img.wp-smiley, img.emoji {
+		display: inline !important;
+		border: none !important;
+		box-shadow: none !important;
+		height: 1em !important;
+		width: 1em !important;
+		margin: 0 0.07em !important;
+		vertical-align: -0.1em !important;
+		background: none !important;
+		padding: 0 !important;
+	}
+</style>
+<link rel="stylesheet" id="wp-block-library-css" href="../css/style.min.css" type="text/css" media="all">
+<style id="wp-block-library-theme-inline-css" type="text/css">
+.wp-block-audio figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-audio figcaption{color:hsla(0,0%,100%,.65)}.wp-block-audio{margin:0 0 1em}.wp-block-code{border:1px solid #ccc;border-radius:4px;font-family:Menlo,Consolas,monaco,monospace;padding:.8em 1em}.wp-block-embed figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-embed figcaption{color:hsla(0,0%,100%,.65)}.wp-block-embed{margin:0 0 1em}.blocks-gallery-caption{color:#555;font-size:13px;text-align:center}.is-dark-theme .blocks-gallery-caption{color:hsla(0,0%,100%,.65)}.wp-block-image figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-image figcaption{color:hsla(0,0%,100%,.65)}.wp-block-image{margin:0 0 1em}.wp-block-pullquote{border-bottom:4px solid;border-top:4px solid;color:currentColor;margin-bottom:1.75em}.wp-block-pullquote cite,.wp-block-pullquote footer,.wp-block-pullquote__citation{color:currentColor;font-size:.8125em;font-style:normal;text-transform:uppercase}.wp-block-quote{border-left:.25em solid;margin:0 0 1.75em;padding-left:1em}.wp-block-quote cite,.wp-block-quote footer{color:currentColor;font-size:.8125em;font-style:normal;position:relative}.wp-block-quote.has-text-align-right{border-left:none;border-right:.25em solid;padding-left:0;padding-right:1em}.wp-block-quote.has-text-align-center{border:none;padding-left:0}.wp-block-quote.is-large,.wp-block-quote.is-style-large,.wp-block-quote.is-style-plain{border:none}.wp-block-search .wp-block-search__label{font-weight:700}.wp-block-search__button{border:1px solid #ccc;padding:.375em .625em}:where(.wp-block-group.has-background){padding:1.25em 2.375em}.wp-block-separator.has-css-opacity{opacity:.4}.wp-block-separator{border:none;border-bottom:2px solid;margin-left:auto;margin-right:auto}.wp-block-separator.has-alpha-channel-opacity{opacity:1}.wp-block-separator:not(.is-style-wide):not(.is-style-dots){width:100px}.wp-block-separator.has-background:not(.is-style-dots){border-bottom:none;height:1px}.wp-block-separator.has-background:not(.is-style-wide):not(.is-style-dots){height:2px}.wp-block-table{margin:0 0 1em}.wp-block-table td,.wp-block-table th{word-break:normal}.wp-block-table figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-table figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video figcaption{color:#555;font-size:13px;text-align:center}.is-dark-theme .wp-block-video figcaption{color:hsla(0,0%,100%,.65)}.wp-block-video{margin:0 0 1em}.wp-block-template-part.has-background{margin-bottom:0;margin-top:0;padding:1.25em 2.375em}
+</style>
+<style id="classic-theme-styles-inline-css" type="text/css">
+/*! This file is auto-generated */
+.wp-block-button__link{color:#fff;background-color:#32373c;border-radius:9999px;box-shadow:none;text-decoration:none;padding:calc(.667em + 2px) calc(1.333em + 2px);font-size:1.125em}.wp-block-file__button{background:#32373c;color:#fff;text-decoration:none}
+</style>
+<style id="global-styles-inline-css" type="text/css">
+body{--wp--preset--color--black: #000000;--wp--preset--color--cyan-bluish-gray: #abb8c3;--wp--preset--color--white: #ffffff;--wp--preset--color--pale-pink: #f78da7;--wp--preset--color--vivid-red: #cf2e2e;--wp--preset--color--luminous-vivid-orange: #ff6900;--wp--preset--color--luminous-vivid-amber: #fcb900;--wp--preset--color--light-green-cyan: #7bdcb5;--wp--preset--color--vivid-green-cyan: #00d084;--wp--preset--color--pale-cyan-blue: #8ed1fc;--wp--preset--color--vivid-cyan-blue: #0693e3;--wp--preset--color--vivid-purple: #9b51e0;--wp--preset--color--primary: #b00e23;--wp--preset--color--title: #2a2a2a;--wp--preset--color--sub-title: #666666;--wp--preset--color--border-input: #dddddd;--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple: linear-gradient(135deg,rgba(6,147,227,1) 0%,rgb(155,81,224) 100%);--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan: linear-gradient(135deg,rgb(122,220,180) 0%,rgb(0,208,130) 100%);--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange: linear-gradient(135deg,rgba(252,185,0,1) 0%,rgba(255,105,0,1) 100%);--wp--preset--gradient--luminous-vivid-orange-to-vivid-red: linear-gradient(135deg,rgba(255,105,0,1) 0%,rgb(207,46,46) 100%);--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray: linear-gradient(135deg,rgb(238,238,238) 0%,rgb(169,184,195) 100%);--wp--preset--gradient--cool-to-warm-spectrum: linear-gradient(135deg,rgb(74,234,220) 0%,rgb(151,120,209) 20%,rgb(207,42,186) 40%,rgb(238,44,130) 60%,rgb(251,105,98) 80%,rgb(254,248,76) 100%);--wp--preset--gradient--blush-light-purple: linear-gradient(135deg,rgb(255,206,236) 0%,rgb(152,150,240) 100%);--wp--preset--gradient--blush-bordeaux: linear-gradient(135deg,rgb(254,205,165) 0%,rgb(254,45,45) 50%,rgb(107,0,62) 100%);--wp--preset--gradient--luminous-dusk: linear-gradient(135deg,rgb(255,203,112) 0%,rgb(199,81,192) 50%,rgb(65,88,208) 100%);--wp--preset--gradient--pale-ocean: linear-gradient(135deg,rgb(255,245,203) 0%,rgb(182,227,212) 50%,rgb(51,167,181) 100%);--wp--preset--gradient--electric-grass: linear-gradient(135deg,rgb(202,248,128) 0%,rgb(113,206,126) 100%);--wp--preset--gradient--midnight: linear-gradient(135deg,rgb(2,3,129) 0%,rgb(40,116,252) 100%);--wp--preset--font-size--small: 13px;--wp--preset--font-size--medium: 20px;--wp--preset--font-size--large: 28px;--wp--preset--font-size--x-large: 42px;--wp--preset--font-size--normal: 15px;--wp--preset--font-size--huge: 36px;--wp--preset--spacing--20: 0.44rem;--wp--preset--spacing--30: 0.67rem;--wp--preset--spacing--40: 1rem;--wp--preset--spacing--50: 1.5rem;--wp--preset--spacing--60: 2.25rem;--wp--preset--spacing--70: 3.38rem;--wp--preset--spacing--80: 5.06rem;--wp--preset--shadow--natural: 6px 6px 9px rgba(0, 0, 0, 0.2);--wp--preset--shadow--deep: 12px 12px 50px rgba(0, 0, 0, 0.4);--wp--preset--shadow--sharp: 6px 6px 0px rgba(0, 0, 0, 0.2);--wp--preset--shadow--outlined: 6px 6px 0px -3px rgba(255, 255, 255, 1), 6px 6px rgba(0, 0, 0, 1);--wp--preset--shadow--crisp: 6px 6px 0px rgba(0, 0, 0, 1);}:where(.is-layout-flex){gap: 0.5em;}:where(.is-layout-grid){gap: 0.5em;}body .is-layout-flow > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-flow > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-flow > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignleft{float: left;margin-inline-start: 0;margin-inline-end: 2em;}body .is-layout-constrained > .alignright{float: right;margin-inline-start: 2em;margin-inline-end: 0;}body .is-layout-constrained > .aligncenter{margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > :where(:not(.alignleft):not(.alignright):not(.alignfull)){max-width: var(--wp--style--global--content-size);margin-left: auto !important;margin-right: auto !important;}body .is-layout-constrained > .alignwide{max-width: var(--wp--style--global--wide-size);}body .is-layout-flex{display: flex;}body .is-layout-flex{flex-wrap: wrap;align-items: center;}body .is-layout-flex > *{margin: 0;}body .is-layout-grid{display: grid;}body .is-layout-grid > *{margin: 0;}:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}.has-black-color{color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-color{color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-color{color: var(--wp--preset--color--white) !important;}.has-pale-pink-color{color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-color{color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-color{color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-color{color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-color{color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-color{color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-color{color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-color{color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-color{color: var(--wp--preset--color--vivid-purple) !important;}.has-black-background-color{background-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-background-color{background-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-background-color{background-color: var(--wp--preset--color--white) !important;}.has-pale-pink-background-color{background-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-background-color{background-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-background-color{background-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-background-color{background-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-background-color{background-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-background-color{background-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-background-color{background-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-background-color{background-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-background-color{background-color: var(--wp--preset--color--vivid-purple) !important;}.has-black-border-color{border-color: var(--wp--preset--color--black) !important;}.has-cyan-bluish-gray-border-color{border-color: var(--wp--preset--color--cyan-bluish-gray) !important;}.has-white-border-color{border-color: var(--wp--preset--color--white) !important;}.has-pale-pink-border-color{border-color: var(--wp--preset--color--pale-pink) !important;}.has-vivid-red-border-color{border-color: var(--wp--preset--color--vivid-red) !important;}.has-luminous-vivid-orange-border-color{border-color: var(--wp--preset--color--luminous-vivid-orange) !important;}.has-luminous-vivid-amber-border-color{border-color: var(--wp--preset--color--luminous-vivid-amber) !important;}.has-light-green-cyan-border-color{border-color: var(--wp--preset--color--light-green-cyan) !important;}.has-vivid-green-cyan-border-color{border-color: var(--wp--preset--color--vivid-green-cyan) !important;}.has-pale-cyan-blue-border-color{border-color: var(--wp--preset--color--pale-cyan-blue) !important;}.has-vivid-cyan-blue-border-color{border-color: var(--wp--preset--color--vivid-cyan-blue) !important;}.has-vivid-purple-border-color{border-color: var(--wp--preset--color--vivid-purple) !important;}.has-vivid-cyan-blue-to-vivid-purple-gradient-background{background: var(--wp--preset--gradient--vivid-cyan-blue-to-vivid-purple) !important;}.has-light-green-cyan-to-vivid-green-cyan-gradient-background{background: var(--wp--preset--gradient--light-green-cyan-to-vivid-green-cyan) !important;}.has-luminous-vivid-amber-to-luminous-vivid-orange-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-amber-to-luminous-vivid-orange) !important;}.has-luminous-vivid-orange-to-vivid-red-gradient-background{background: var(--wp--preset--gradient--luminous-vivid-orange-to-vivid-red) !important;}.has-very-light-gray-to-cyan-bluish-gray-gradient-background{background: var(--wp--preset--gradient--very-light-gray-to-cyan-bluish-gray) !important;}.has-cool-to-warm-spectrum-gradient-background{background: var(--wp--preset--gradient--cool-to-warm-spectrum) !important;}.has-blush-light-purple-gradient-background{background: var(--wp--preset--gradient--blush-light-purple) !important;}.has-blush-bordeaux-gradient-background{background: var(--wp--preset--gradient--blush-bordeaux) !important;}.has-luminous-dusk-gradient-background{background: var(--wp--preset--gradient--luminous-dusk) !important;}.has-pale-ocean-gradient-background{background: var(--wp--preset--gradient--pale-ocean) !important;}.has-electric-grass-gradient-background{background: var(--wp--preset--gradient--electric-grass) !important;}.has-midnight-gradient-background{background: var(--wp--preset--gradient--midnight) !important;}.has-small-font-size{font-size: var(--wp--preset--font-size--small) !important;}.has-medium-font-size{font-size: var(--wp--preset--font-size--medium) !important;}.has-large-font-size{font-size: var(--wp--preset--font-size--large) !important;}.has-x-large-font-size{font-size: var(--wp--preset--font-size--x-large) !important;}
+.wp-block-navigation a:where(:not(.wp-element-button)){color: inherit;}
+:where(.wp-block-post-template.is-layout-flex){gap: 1.25em;}:where(.wp-block-post-template.is-layout-grid){gap: 1.25em;}
+:where(.wp-block-columns.is-layout-flex){gap: 2em;}:where(.wp-block-columns.is-layout-grid){gap: 2em;}
+.wp-block-pullquote{font-size: 1.5em;line-height: 1.6;}
+</style>
+<link rel="stylesheet" id="contact-form-7-css" href="../css/styles.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-layout-css" href="../css/woocommerce-layout.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce-general-css" href="../css/woocommerce.css" type="text/css" media="all">
+<style id="woocommerce-inline-inline-css" type="text/css">
+.woocommerce form .form-row .required { visibility: visible; }
+</style>
+<link rel="stylesheet" id="wphb-extra-css-css" href="../css/site.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-hotel-booking-magnific-popup-css-css" href="../css/magnific-popup.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-hotel-booking-single-room-css-css" href="../css/booking-single-room.css" type="text/css" media="all">
+<link rel="stylesheet" id="wphb-ui-slider-css" href="../css/nouislider.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-hotel-booking-css" href="../css/hotel-booking_8.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-hotel-booking-libaries-style-css" href="../css/libraries.css" type="text/css" media="all">
+<link rel="stylesheet" id="wp-admin-hotel-booking-calendar-v2-css" href="../css/main.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="thim-style-css" href="../css/style.css" type="text/css" media="all">
+<style id="thim-style-inline-css" type="text/css">
+
+		:root {
+			--thim-body-primary-color: #b00e23;
+			--thim_font_title-font-family:Playfair Display;--thim_font_title-variant:regular;--thim_font_title-color:#2a2a2a;--thim_font_title-font-weight:400;--thim_font_title-font-style:normal;
+		}
+	
+</style>
+<link rel="stylesheet" id="sailing-slick-css" href="../css/slick.css" type="text/css" media="all">
+<link rel="stylesheet" id="woocommerce_prettyPhoto_css-css" href="../css/prettyPhoto.css" type="text/css" media="all">
+<link rel="stylesheet" id="jquery-ui-smoothness-css" href="../css/jquery-ui.min.css" type="text/css" media="screen">
+<link rel="stylesheet" id="thim-style-options-css" href="../css/sailing.1701280866.css" type="text/css" media="all">
+		<script type="text/javascript">
+			var hotel_settings = {
+				cart_page_url: 'http://127.0.0.1:8080/hotel-cart/',
+				checkout_page_url: 'http://127.0.0.1:8080/hotel-checkout/',
+				site_url: 'http://127.0.0.1:8080',
+				ajax: 'http://127.0.0.1:8080/wp-admin/admin-ajax.php',
+				settings: {"review_rating_required":"1"},
+				upload_base_url: 'http://127.0.0.1:8080/wp-content/uploads',
+				meta_key: {
+					prefix: '_hb_'
+				},
+				date_format: 'F j, Y',
+				nonce: '2251675a85',
+				timezone: '1790810918',
+				min_booking_date: 1,
+				wphb_rest_url: 'http://127.0.0.1:8080/wp-json/',
+				is_page_search: 0,
+				url_page_search: 'http://127.0.0.1:8080/hotel-search/',
+				room_id: 0,
+				block_dates:
+				[]				,
+				currency: 'USD',
+				currency_symbol: '&#36;',
+				currency_position: 'left',
+				thousands_separator: ',',
+				decimals_separator: '.',
+				number_decimal: '1',
+			}
+		</script>
+				<script type="text/javascript">
+			var hotel_settings = {
+				cart_page_url: 'http://127.0.0.1:8080/hotel-cart/',
+				checkout_page_url: 'http://127.0.0.1:8080/hotel-checkout/',
+				site_url: 'http://127.0.0.1:8080',
+				ajax: 'http://127.0.0.1:8080/wp-admin/admin-ajax.php',
+				settings: {"review_rating_required":"1"},
+				upload_base_url: 'http://127.0.0.1:8080/wp-content/uploads',
+				meta_key: {
+					prefix: '_hb_'
+				},
+				date_format: 'F j, Y',
+				nonce: '2251675a85',
+				timezone: '1790810918',
+				min_booking_date: 1,
+				wphb_rest_url: 'http://127.0.0.1:8080/wp-json/',
+				is_page_search: 0,
+				url_page_search: 'http://127.0.0.1:8080/hotel-search/',
+				room_id: 0,
+				block_dates:
+				[]				,
+				currency: 'USD',
+				currency_symbol: '&#36;',
+				currency_position: 'left',
+				thousands_separator: ',',
+				decimals_separator: '.',
+				number_decimal: '1',
+			}
+		</script>
+		<script type="text/javascript" src="../js/wp-polyfill-inert.min.js" id="wp-polyfill-inert-js"></script>
+<script type="text/javascript" src="../js/regenerator-runtime.min.js" id="regenerator-runtime-js"></script>
+<script type="text/javascript" src="../js/wp-polyfill.min.js" id="wp-polyfill-js"></script>
+<script type="text/javascript" src="../js/jquery.min.js" id="jquery-core-js"></script>
+<script type="text/javascript" src="../js/jquery-migrate.min.js" id="jquery-migrate-js"></script>
+<script type="text/javascript" src="../js/jquery.blockUI.min.js" id="jquery-blockui-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="wc-add-to-cart-js-extra">
+/* <![CDATA[ */
+var wc_add_to_cart_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%","i18n_view_cart":"Voir le panier","cart_url":"http:\/\/127.0.0.1:8080\/cart\/","is_cart":"","cart_redirect_after_add":"no"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/add-to-cart.min.js" id="wc-add-to-cart-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="../js/js.cookie.min.js" id="js-cookie-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" id="woocommerce-js-extra">
+/* <![CDATA[ */
+var woocommerce_params = {"ajax_url":"\/wp-admin\/admin-ajax.php","wc_ajax_url":"\/?wc-ajax=%%endpoint%%"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/woocommerce.min.js" id="woocommerce-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="../js/core.min.js" id="jquery-ui-core-js"></script>
+<script type="text/javascript" src="../js/datepicker.min.js" id="jquery-ui-datepicker-js"></script>
+<script type="text/javascript" id="jquery-ui-datepicker-js-after">
+/* <![CDATA[ */
+jQuery(function(jQuery){jQuery.datepicker.setDefaults({"closeText":"Fermer","currentText":"Aujourd\u2019hui","monthNames":["janvier","f\u00e9vrier","mars","avril","mai","juin","juillet","ao\u00fbt","septembre","octobre","novembre","d\u00e9cembre"],"monthNamesShort":["Jan","F\u00e9v","Mar","Avr","Mai","Juin","Juil","Ao\u00fbt","Sep","Oct","Nov","D\u00e9c"],"nextText":"Suivant","prevText":"Pr\u00e9c\u00e9dent","dayNames":["dimanche","lundi","mardi","mercredi","jeudi","vendredi","samedi"],"dayNamesShort":["dim","lun","mar","mer","jeu","ven","sam"],"dayNamesMin":["D","L","M","M","J","V","S"],"dateFormat":"MM d, yy","firstDay":1,"isRTL":false});});
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/mouse.min.js" id="jquery-ui-mouse-js"></script>
+<script type="text/javascript" src="../js/sortable.min.js" id="jquery-ui-sortable-js"></script>
+<script type="text/javascript" src="../js/underscore.min.js" id="underscore-js"></script>
+<script type="text/javascript" id="wp-util-js-extra">
+/* <![CDATA[ */
+var _wpUtilSettings = {"ajax":{"url":"\/wp-admin\/admin-ajax.php"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/wp-util.min.js" id="wp-util-js"></script>
+<script type="text/javascript" src="../js/hooks.min.js" id="wp-hooks-js"></script>
+<script type="text/javascript" src="../js/i18n.min.js" id="wp-i18n-js"></script>
+<script type="text/javascript" id="wp-i18n-js-after">
+/* <![CDATA[ */
+wp.i18n.setLocaleData( { 'text direction\u0004ltr': [ 'ltr' ] } );
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/url.min.js" id="wp-url-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-translations">
+/* <![CDATA[ */
+( function( domain, translations ) {
+	var localeData = translations.locale_data[ domain ] || translations.locale_data.messages;
+	localeData[""].domain = domain;
+	wp.i18n.setLocaleData( localeData, domain );
+} )( "default", {"translation-revision-date":"2023-12-01 10:23:50+0000","generator":"GlotPress\/4.0.0-alpha.11","domain":"messages","locale_data":{"messages":{"":{"domain":"messages","plural-forms":"nplurals=2; plural=n > 1;","lang":"fr"},"You are probably offline.":["Vous \u00eates probablement hors ligne."],"Media upload failed. If this is a photo or a large image, please scale it down and try again.":["Le t\u00e9l\u00e9versement du m\u00e9dia a \u00e9chou\u00e9. S\u2019il s\u2019agit d\u2019une photo ou d\u2019une grande image, veuillez la redimensionner puis r\u00e9essayer."],"The response is not a valid JSON response.":["La r\u00e9ponse n\u2019est pas une r\u00e9ponse JSON valide."],"An unknown error occurred.":["Une erreur inconnue est survenue."]}},"comment":{"reference":"wp-includes\/js\/dist\/api-fetch.js"}} );
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/api-fetch.min.js" id="wp-api-fetch-js"></script>
+<script type="text/javascript" id="wp-api-fetch-js-after">
+/* <![CDATA[ */
+wp.apiFetch.use( wp.apiFetch.createRootURLMiddleware( "http://127.0.0.1:8080/wp-json/" ) );
+wp.apiFetch.nonceMiddleware = wp.apiFetch.createNonceMiddleware( "c54f04b0cd" );
+wp.apiFetch.use( wp.apiFetch.nonceMiddleware );
+wp.apiFetch.use( wp.apiFetch.mediaUploadMiddleware );
+wp.apiFetch.nonceEndpoint = "http://127.0.0.1:8080/wp-admin/admin-ajax.php?action=rest-nonce";
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/jquery.magnific-popup.min.js" id="wp-hotel-booking-magnific-popup-js-js"></script>
+<script type="text/javascript" src="../js/owl.carousel.min.js" id="wp-hotel-booking-owl-carousel-js"></script>
+<script type="text/javascript" src="../js/nouislider.min.js" id="wphb-ui-slider-js"></script>
+<script type="text/javascript" id="wp-hotel-booking-single-room-js-js-extra">
+/* <![CDATA[ */
+var Hotel_Booking_Blocked_Days = {"blocked_days":[],"external_link":""};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/booking-single-room.js" id="wp-hotel-booking-single-room-js-js"></script>
+<script type="text/javascript" src="../js/select2.min.js" id="wp-admin-hotel-booking-select2-js"></script>
+<script type="text/javascript" src="../js/main.min.js" id="wp-admin-hotel-booking-calendar-v2-js"></script>
+<script type="text/javascript" src="../js/admin.hotel-booking-v2.js" id="wp-admin-hotel-booking-v2-js"></script>
+<script type="text/javascript" src="../js/jquery.prettyPhoto.min.js" id="prettyPhoto-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="../js/jquery.prettyPhoto.init.min.js" id="prettyPhoto-init-js" defer="defer" data-wp-strategy="defer"></script>
+<link rel="https://api.w.org/" href="http://127.0.0.1:8080/wp-json/"><link rel="EditURI" type="application/rsd+xml" title="RSD" href="http://127.0.0.1:8080/xmlrpc.php?rsd">
+<meta name="generator" content="WordPress 6.4.3">
+<meta name="generator" content="WooCommerce 8.3.0">
+<style type="text/css"> .ae_data .elementor-editor-element-setting {
+            display:none !important;
+            }
+            </style><link rel="apple-touch-icon" sizes="180x180" href="/wp-content/uploads/fbrfg/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/wp-content/uploads/fbrfg/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/wp-content/uploads/fbrfg/favicon-16x16.png">
+<link rel="manifest" href="/wp-content/uploads/fbrfg/site.webmanifest">
+<link rel="mask-icon" href="/wp-content/uploads/fbrfg/safari-pinned-tab.svg" color="#5bbad5">
+<link rel="shortcut icon" href="/wp-content/uploads/fbrfg/favicon.ico">
+<meta name="msapplication-TileColor" content="#da532c">
+<meta name="msapplication-config" content="/wp-content/uploads/fbrfg/browserconfig.xml">
+<meta name="theme-color" content="#ffffff"><link rel="shortcut icon" href="http://127.0.0.1:8080/wp-content/themes/sailing/assets/images/favicon.png" type="image/x-icon">	<noscript><style>.woocommerce-product-gallery{ opacity: 1 !important; }</style></noscript>
+	            <script type="text/javascript">
+                function tc_insert_internal_css(css) {
+                    var tc_style = document.createElement("style");
+                    tc_style.type = "text/css";
+                    tc_style.setAttribute('data-type', 'tc-internal-css');
+                    var tc_style_content = document.createTextNode(css);
+                    tc_style.appendChild(tc_style_content);
+                    document.head.appendChild(tc_style);
+                }
+            </script>
+			<meta name="generator" content="Powered by Slider Revolution 6.5.8 - responsive, Mobile-Friendly Slider Plugin for WordPress with comfortable drag and drop interface.">
+<script type="text/javascript">function setREVStartSize(e){
+			//window.requestAnimationFrame(function() {				 
+				window.RSIW = window.RSIW===undefined ? window.innerWidth : window.RSIW;	
+				window.RSIH = window.RSIH===undefined ? window.innerHeight : window.RSIH;	
+				try {								
+					var pw = document.getElementById(e.c).parentNode.offsetWidth,
+						newh;
+					pw = pw===0 || isNaN(pw) ? window.RSIW : pw;
+					e.tabw = e.tabw===undefined ? 0 : parseInt(e.tabw);
+					e.thumbw = e.thumbw===undefined ? 0 : parseInt(e.thumbw);
+					e.tabh = e.tabh===undefined ? 0 : parseInt(e.tabh);
+					e.thumbh = e.thumbh===undefined ? 0 : parseInt(e.thumbh);
+					e.tabhide = e.tabhide===undefined ? 0 : parseInt(e.tabhide);
+					e.thumbhide = e.thumbhide===undefined ? 0 : parseInt(e.thumbhide);
+					e.mh = e.mh===undefined || e.mh=="" || e.mh==="auto" ? 0 : parseInt(e.mh,0);		
+					if(e.layout==="fullscreen" || e.l==="fullscreen") 						
+						newh = Math.max(e.mh,window.RSIH);					
+					else{					
+						e.gw = Array.isArray(e.gw) ? e.gw : [e.gw];
+						for (var i in e.rl) if (e.gw[i]===undefined || e.gw[i]===0) e.gw[i] = e.gw[i-1];					
+						e.gh = e.el===undefined || e.el==="" || (Array.isArray(e.el) && e.el.length==0)? e.gh : e.el;
+						e.gh = Array.isArray(e.gh) ? e.gh : [e.gh];
+						for (var i in e.rl) if (e.gh[i]===undefined || e.gh[i]===0) e.gh[i] = e.gh[i-1];
+											
+						var nl = new Array(e.rl.length),
+							ix = 0,						
+							sl;					
+						e.tabw = e.tabhide>=pw ? 0 : e.tabw;
+						e.thumbw = e.thumbhide>=pw ? 0 : e.thumbw;
+						e.tabh = e.tabhide>=pw ? 0 : e.tabh;
+						e.thumbh = e.thumbhide>=pw ? 0 : e.thumbh;					
+						for (var i in e.rl) nl[i] = e.rl[i]<window.RSIW ? 0 : e.rl[i];
+						sl = nl[0];									
+						for (var i in nl) if (sl>nl[i] && nl[i]>0) { sl = nl[i]; ix=i;}															
+						var m = pw>(e.gw[ix]+e.tabw+e.thumbw) ? 1 : (pw-(e.tabw+e.thumbw)) / (e.gw[ix]);					
+						newh =  (e.gh[ix] * m) + (e.tabh + e.thumbh);
+					}
+					var el = document.getElementById(e.c);
+					if (el!==null && el) el.style.height = newh+"px";					
+					el = document.getElementById(e.c+"_wrapper");
+					if (el!==null && el) {
+						el.style.height = newh+"px";
+						el.style.display = "block";
+					}
+				} catch(e){
+					console.log("Failure at Presize of Slider:" + e)
+				}					   
+			//});
+		  };</script>
+		<style type="text/css" id="wp-custom-css">
+			.tour_price{
+	display : none !important;
+}
+.footer-content-room{
+	display : none !important;
+}
+.footer-content-room .price-single{
+	display : none !important;
+}
+
+.breadcrumbs{
+	display : none;
+}
+
+.header-left{
+	display:none !important;
+}
+
+.alignleft{
+	width : 100%;
+}
+
+#sidebar{
+	display : none;
+}
+
+.tc-menu-inner{
+	font-size: 13px !important;
+}
+
+
+li.menu-item{
+	padding: 5px 7px !important;
+}
+
+.hb_related_other_room{
+	display : none;
+}
+.thim-single-room-content{
+	font-size: 20px;
+}
+
+#preload{
+	display : none;
+}
+
+.menu-mobile-effect{
+	float: right;
+  padding: 10px 25px 0px 10px !important;
+}
+
+.content-pusher {
+	padding-top: 90px !important;
+
+}
+    
+    
+		</style>
+		<style id="kirki-inline-styles"></style><script src="../js/wp-emoji-release.min.js" defer=""></script></head>
+
+<body class="error404 wp-embed-responsive wrapper-header_v3 theme-sailing woocommerce-js bg-type-color elementor-default elementor-kit-3039 e--ua-blink e--ua-chrome e--ua-webkit" data-elementor-device-mode="tablet">
+
+	
+<div id="wrapper-container" class="wrapper-container">
+	<div class="content-pusher " style="padding-top: 170px;">
+		<header id="masthead" class="site-header affix-top bg-custom-sticky sticky-header header_v3">
+			<div class="navigation">
+	<div class="tm-flex">
+		<div class="menu-mobile-effect navbar-toggle" data-effect="mobile-effect">
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		</div>
+		<div class="width-logo sm-logo">
+			<a href="http://127.0.0.1:8080/" title="Lezenithhotel - Une Nouvelle Vision du Luxe" rel="home" class="no-sticky-logo no-mobile-logo"><img src="Untitled-design-24.png" alt="Lezenithhotel"></a>			<a href="http://127.0.0.1:8080/" title="Lezenithhotel - Une Nouvelle Vision du Luxe" rel="home" class="sticky-logo no-mobile-logo">
+					<img src="Untitled-design-24.png" alt="Lezenithhotel"></a>			<a href="http://127.0.0.1:8080/" title="Lezenithhotel - Une Nouvelle Vision du Luxe" rel="home" class="mobile-logo"><img src="Untitled-design-24.png" alt="Lezenithhotel"></a>		</div>
+		<div class="header-left">
+			<li id="text-205410013" class="widget widget_text">			<div class="textwidget"><i class="fa fa-phone"></i>&nbsp;Besoin d’aide? Appelez-nous dès maintenant :
++212 522 894 949</div>
+		</li>		</div>
+		<div class="header-right">
+			<div class="right-menu">
+				<nav class="width-navigation main-navigation">
+					<div class="inner-navigation">
+						<ul id="primary-menu" class="nav navbar-nav menu-main-menu">
+	<li id="menu-item-2999" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-2999 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/" class="tc-menu-inner"><span>Accueil</span></a></li>
+<li id="menu-item-3364" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-3364 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/hebergements/" class="tc-menu-inner"><span>Chambres et Suites</span></a><span class="icon-toggle"><i class="fa fa-angle-down"></i></span>
+<ul class="sub-menu">
+	<li id="menu-item-3512" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3512 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://127.0.0.1:8080/chambres/chambre-single/" class="tc-menu-inner tc-megamenu-title"><span>Chambre single</span></a></li>
+	<li id="menu-item-3513" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3513 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://127.0.0.1:8080/chambres/chambre-double/" class="tc-menu-inner tc-megamenu-title"><span>Chambre Double</span></a></li>
+	<li id="menu-item-3514" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3514 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://127.0.0.1:8080/chambres/chambre-triple/" class="tc-menu-inner tc-megamenu-title"><span>Chambre Triple</span></a></li>
+	<li id="menu-item-3515" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3515 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://127.0.0.1:8080/chambres/suite-junior/" class="tc-menu-inner tc-megamenu-title"><span>Suite junior</span></a></li>
+	<li id="menu-item-3516" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3516 tc-menu-item tc-menu-depth-1 tc-menu-align-left"><a href="http://127.0.0.1:8080/chambres/suite-senior/" class="tc-menu-inner tc-megamenu-title"><span>Suite Senior</span></a></li>
+</ul><!-- End wrapper ul sub -->
+</li>
+<li id="menu-item-3329" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3329 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/restaurants/" class="tc-menu-inner"><span>Restaurants</span></a></li>
+<li id="menu-item-3412" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3412 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/seminaires-evenements/" class="tc-menu-inner"><span>Événements</span></a></li>
+<li id="menu-item-3511" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3511 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/spa-bien-etre/" class="tc-menu-inner"><span>SPA &amp; Bien-être</span></a></li>
+</ul>					</div>
+				</nav>
+			</div>
+							<div class="menu-right">
+					<li id="button-2" class="widget widget_button"><div class="thim-widget-button thim-widget-button-base template-base">
+	<div id="button_6abd9b2754263" class="thim-sc-button">
+		<a target="_blank" href="https://le-zenith-hotel-spa.hotelrunner.com/bv3/" class="thim-button">
+							<img src="calendar-2.png" alt="Hello world!">
+						<span class="inner-text">
+			Réservation		</span>
+		</a>
+	</div>
+
+	<style>
+		#button_6abd9b2754263.thim-sc-button {
+			background: #b00e23;
+		}
+
+		#button_6abd9b2754263.thim-sc-button a span.inner-text {
+			color: #FFF;
+		}
+
+		#button_6abd9b2754263.thim-sc-button:hover {
+			background: #b00e23;
+		}
+
+		#button_6abd9b2754263.thim-sc-button:hover a span.inner-text {
+			color: #FFF !important;
+		}
+	</style>
+</div></li>				</div>
+			
+						<div class="menu-mobile-effect navbar-toggle hidden" data-effect="mobile-effect">
+				<div class="icon-wrap">
+					<i class="ion-navicon"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+		</header>
+		<div id="main-content">
+	<section class="content-area">
+		<div class="container site-content"><div class="row"><main id="main" class="site-main col-sm-12 full-width"><section class="error-404 not-found">
+	<div class="page-content">
+		<img src="404.png" alt="404 Page">
+		<h3> Sorry, we couldn't find the page you're looking for. </h3>
+ 	</div>
+	<!-- .page-content -->
+</section></main></div></div>	</section>
+	
+
+
+<footer style="" id="colophon" class="site-footer footer_style_new">
+			<div class="container_custom">
+			<div class="row">
+									<div class="footer">
+												<aside id="text-205410012" class="widget widget_text">			<div class="textwidget">		<div data-elementor-type="wp-post" data-elementor-id="2956" class="elementor elementor-2956" data-elementor-settings="[]">
+							<div class="elementor-section-wrap">
+							<section class="elementor-section elementor-top-section elementor-element elementor-element-83db00e elementor-section-full_width elementor-section-height-default elementor-section-height-default" data-id="83db00e" data-element_type="section">
+						<div class="elementor-container elementor-column-gap-default">
+					<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-dad0541" data-id="dad0541" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-cc6f2ac elementor-widget elementor-widget-html" data-id="cc6f2ac" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<img decoding="async" src="https://new.lezenithhotel.com/wp-content/uploads/2021/12/Untitled-design-24.png" alt="Lezenithhotel" style="width:30%">
+<p class="text-footer">Un environnement idéal pour votre séjour d'affaire ou touristique, stratégique dans son emplacement</p>		</div>
+				</div>
+				<div class="elementor-element elementor-element-d76af33 newletter elementor-hidden-desktop elementor-hidden-tablet elementor-hidden-mobile elementor-widget elementor-widget-shortcode" data-id="d76af33" data-element_type="widget" data-widget_type="shortcode.default">
+				<div class="elementor-widget-container">
+					<div class="elementor-shortcode"><script>(function() {
+	window.mc4wp = window.mc4wp || {
+		listeners: [],
+		forms: {
+			on: function(evt, cb) {
+				window.mc4wp.listeners.push(
+					{
+						event   : evt,
+						callback: cb
+					}
+				);
+			}
+		}
+	}
+})();
+</script><!-- Mailchimp for WordPress v4.8.6 - https://wordpress.org/plugins/mailchimp-for-wp/ --><form id="mc4wp-form-1" class="mc4wp-form mc4wp-form-2780 mc4wp-form-basic" method="post" data-id="2780" data-name="Default sign-up form"><div class="mc4wp-form-fields"><input type="email" id="mc4wp_email" name="EMAIL" placeholder="Your email here" required=""><input type="submit" value="Sign In"></div><label style="display: none !important;">Laissez ce champ vide si vous êtes humain&nbsp;: <input type="text" name="_mc4wp_honeypot" value="" tabindex="-1" autocomplete="off"></label><input type="hidden" name="_mc4wp_timestamp" value="1790810919"><input type="hidden" name="_mc4wp_form_id" value="2780"><input type="hidden" name="_mc4wp_form_element_id" value="mc4wp-form-1"><div class="mc4wp-response"></div></form><!-- / Mailchimp for WordPress Plugin --></div>
+				</div>
+				</div>
+				<div class="elementor-element elementor-element-21598e7 elementor-widget elementor-widget-thim-social" data-id="21598e7" data-element_type="widget" data-widget_type="thim-social.default">
+				<div class="elementor-widget-container">
+			<div class="thim-social version-old">
+		<ul class="social_link">
+		<li><a class="face hasTooltip" href="https://www.facebook.com/lezenithhotel/" target="_self" rel="noopener"><i class="fa fa-facebook"></i></a></li><li><a class="instagram hasTooltip" href="https://www.instagram.com/lezenithhotelandspa/" target="_self" rel="noopener"><i class="fa fa-instagram"></i></a></li>	</ul>
+</div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-6e13e3e" data-id="6e13e3e" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-48015e4 elementor-widget elementor-widget-html" data-id="48015e4" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<h3 class="widget-title"> Suites &amp; Chambres</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-e4e0360 elementor-widget elementor-widget-wp-widget-nav_menu" data-id="e4e0360" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-les-hebergements-container"><ul id="menu-les-hebergements" class="menu"><li id="menu-item-3170" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3170 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/chambres/chambre-single/" class="tc-menu-inner">Chambre Single</a></li>
+<li id="menu-item-3171" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3171 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/chambres/chambre-double/" class="tc-menu-inner">Chambre Double</a></li>
+<li id="menu-item-3172" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3172 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/chambres/chambre-triple/" class="tc-menu-inner">Chambre Triple</a></li>
+<li id="menu-item-3173" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3173 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/chambres/suite-junior/" class="tc-menu-inner">Suite Junior</a></li>
+<li id="menu-item-3174" class="menu-item menu-item-type-post_type menu-item-object-hb_room menu-item-3174 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/chambres/suite-senior/" class="tc-menu-inner">Suite Senior</a></li>
+</ul></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-ddeb6cd" data-id="ddeb6cd" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-87d063e elementor-widget elementor-widget-html" data-id="87d063e" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<h3 class="widget-title">Nos Services</h3>		</div>
+				</div>
+				<div class="elementor-element elementor-element-fc515ec elementor-widget elementor-widget-wp-widget-nav_menu" data-id="fc515ec" data-element_type="widget" data-widget_type="wp-widget-nav_menu.default">
+				<div class="elementor-widget-container">
+			<div class="menu-footer-about-us-container"><ul id="menu-footer-about-us" class="menu"><li id="menu-item-3415" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3415 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/hebergements/" class="tc-menu-inner">Hébergements</a></li>
+<li id="menu-item-3416" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3416 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/restaurants/" class="tc-menu-inner">Les Restaurants</a></li>
+<li id="menu-item-3413" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3413 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/seminaires-evenements/" class="tc-menu-inner">Séminaires &amp; Événements</a></li>
+<li id="menu-item-3414" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3414 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/spa-bien-etre/" class="tc-menu-inner">SPA &amp; Bien-être</a></li>
+<li id="menu-item-3669" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3669 tc-menu-item tc-menu-depth-0 tc-menu-align-left tc-menu-layout-default"><a href="http://127.0.0.1:8080/conditions-generales-de-ventes/" class="tc-menu-inner">Conditions Générales de Ventes</a></li>
+</ul></div>		</div>
+				</div>
+					</div>
+		</div>
+				<div class="elementor-column elementor-col-25 elementor-top-column elementor-element elementor-element-2c6a573" data-id="2c6a573" data-element_type="column">
+			<div class="elementor-widget-wrap elementor-element-populated">
+								<div class="elementor-element elementor-element-c1fa1f1 elementor-widget elementor-widget-html" data-id="c1fa1f1" data-element_type="widget" data-widget_type="html.default">
+				<div class="elementor-widget-container">
+			<h3 class="widget-title">Nous Contacter</h3>
+<ul>
+ 	<li><i class="ion-ios-telephone"></i> <a href="tel:+212522894 949">+212 522 894 949</a></li>
+ 	<li><i class="ion-ios-telephone"></i> <a href="tel:+212661438 305">+212 661 438 305</a></li>
+ 	<li><i class="ion-ios-email-outline"></i> <a href="mailto:reservation@lezenithhotel.com">reservation@lezenithhotel.com</a></li>
+ 	<li><i class="ion-ios-location"></i> Le Zenith Hotel &amp; Spa
+Route d'EL Jadida, Angle 1077 Lissasfa Casablanca.</li>
+</ul>		</div>
+				</div>
+					</div>
+		</div>
+							</div>
+		</section>
+						</div>
+					</div>
+		</div>
+		</aside>					</div>
+							</div>
+		</div>
+		<div class="copy-right-new"><div class="text-copyright border-copyright"><aside id="copyright-2" class="widget widget_copyright"><div class="thim-widget-copyright thim-widget-copyright-base template-base"><div class="copyright-text">
+	© <a href="http://127.0.0.1:8080/" ref="nofollow">Lezenithhotel</a> 2021. All rights reserved.</div></div></aside></div></div>	
+</footer><!-- #colophon -->
+
+	<a id="back-to-top" class="scrollup show" title="Go To Top"></a>
+</div><!--end main-content-->
+</div></div><!-- .wrapper-container -->
+
+<div class="covers-parallax"></div>
+
+		<script type="text/javascript">
+			window.RS_MODULES = window.RS_MODULES || {};
+			window.RS_MODULES.modules = window.RS_MODULES.modules || {};
+			window.RS_MODULES.waiting = window.RS_MODULES.waiting || [];
+			window.RS_MODULES.defered = true;
+			window.RS_MODULES.moduleWaiting = window.RS_MODULES.moduleWaiting || {};
+			window.RS_MODULES.type = 'compiled';
+		</script>
+		
+<script type="text/html" id="tmpl-hb-minicart-item">
+	<div class="hb_mini_cart_item active" data-cart-id="{{ data.cart_id }}">
+
+		<div class="hb_mini_cart_top">
+
+			<h4 class="hb_title"><a href="{{{ data.permalink }}}">{{ data.name }}</a></h4>
+			<span class="hb_mini_cart_remove"><i class="fa fa-times"></i></span>
+
+		</div>
+
+		<div class="hb_mini_cart_number">
+
+			<label>Quantité :</label>
+			<span>{{ data.quantity }}</span>
+
+		</div>
+
+		<# if ( typeof data.extra_packages !== 'undefined' && Object.keys( data.extra_packages ).length > 0 ) { #>
+			<div class="hb_mini_cart_price_packages">
+				<label>Services supplémentaires :</label>
+				<ul>
+					<#  for ( var i = 0; i < Object.keys( data.extra_packages ).length; i++ ) { #>
+							<# var pack = data.extra_packages[i]; #>
+							<li>
+								<div class="hb_package_title">
+									<a href="#">{{{ pack.package_title }}}</a>
+									<# if( !pack.required) {#>
+										<span>
+											({{{ pack.package_quantity }}})
+											<a href="#" class="hb_package_remove" data-cart-id="{{ pack.cart_id }}">
+												<i class="fa fa-times"></i>
+											</a>
+										</span>
+									<# } #>
+								</div>
+							</li>
+					<# } #>
+				</ul>
+			</div>
+		<# } #>
+
+		<div class="hb_mini_cart_price">
+
+			<label>Prix : </label>
+			<span>{{{ data.total }}}</span>
+
+		</div>
+
+	</div>
+</script>
+<script type="text/html" id="tmpl-hb-minicart-footer">
+	<div class="hb_mini_cart_footer">
+
+		<a href="http://127.0.0.1:8080/hotel-checkout/?no-cache=6abd9b278b0a4" class="hb_button hb_checkout">Payer</a>
+		<a href="http://127.0.0.1:8080/hotel-cart/?no-cache=6abd9b278b12e" class="hb_button hb_view_cart">Voir le panier</a>
+
+	</div>
+</script>
+<script type="text/html" id="tmpl-hb-minicart-empty">
+	<p class="hb_mini_cart_empty">Votre panier est vide.</p>
+</script>
+
+<!--Single search form-->
+<script type="text/html" id="tmpl-hb-room-load-form-cart">
+
+	<form action="POST" name="hb-search-results"
+			class="hb-search-room-results hotel-booking-search hotel-booking-single-room-action">
+
+		<div class="hb-booking-room-form-head">
+			<h2 class="hb-room-name">Hello world!</h2>
+			<p class="description">Please select number of room and packages(optional)</p>
+		</div>
+
+		<div class="hb-search-results-form-container">
+						<# if ( typeof data.qty !== 'undefined' ) { #>
+			<div class="hb-booking-room-form-group">
+				<div class="hb-booking-room-form-field hb-form-field-input">
+											<select name="hb-num-of-rooms" class="number_room_select" style="display: none;">
+							<option value="1">1</option>
+						</select>
+									</div>
+			</div>
+			<# } #>
+			
+	<p class="no-extra">No packages ( optional ) is available at the moment. </p>
+		</div>
+
+		<div class="hb-booking-room-form-footer">
+			<a href="#" data-template="hb-room-load-form"
+				class="hb_previous_step hb_button">Précédent</a>
+			<button type="submit"
+					class="hb_add_to_cart hb_button">Add To Cart</button>
+			<input type="hidden" name="check_in_date_text" value="{{ data.check_in_date_text }}" />
+			<input type="hidden" name="check_out_date_text" value="{{ data.check_out_date_text }}" />
+			<input type="hidden" name="check_in_date" value="{{ data.check_in_date }}" />
+			<input type="hidden" name="check_out_date" value="{{ data.check_out_date }}" />
+			<input type="hidden" name="room-id" value="1" />
+			<input type="hidden" name="action" value="hotel_booking_ajax_add_to_cart" />
+			<input type="hidden" name="is_single" value="1" />
+			<input type="hidden" id="nonce" name="nonce" value="2251675a85" /><input type="hidden" name="_wp_http_referer" value="/wp-content/plugins/wp-hotel-booking/assets/images/ui-bg_flat_75_ffffff_40x100.png" />		</div>
+	</form>
+
+</script>
+<script>(function() {function maybePrefixUrlField() {
+	if (this.value.trim() !== '' && this.value.indexOf('http') !== 0) {
+		this.value = "http://" + this.value;
+	}
+}
+
+var urlFields = document.querySelectorAll('.mc4wp-form input[type="url"]');
+if (urlFields) {
+	for (var j=0; j < urlFields.length; j++) {
+		urlFields[j].addEventListener('blur', maybePrefixUrlField);
+	}
+}
+})();</script><!-- Instagram Feed JS -->
+<script type="text/javascript">
+var sbiajaxurl = "http://127.0.0.1:8080/wp-admin/admin-ajax.php";
+</script>
+	<script type="text/javascript">
+		(function () {
+			var c = document.body.className;
+			c = c.replace(/woocommerce-no-js/, 'woocommerce-js');
+			document.body.className = c;
+		})();
+	</script>
+	<link rel="stylesheet" id="elementor-frontend-css" href="../css/frontend-lite.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-2956-css" href="../css/post-2956.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-icons-css" href="../css/elementor-icons.min.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-post-3039-css" href="../css/post-3039.css" type="text/css" media="all">
+<link rel="stylesheet" id="elementor-global-css" href="../css/global.css" type="text/css" media="all">
+<link rel="stylesheet" id="google-fonts-1-css" href="https://fonts.googleapis.com/css?family=Roboto%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic%7CRoboto+Slab%3A100%2C100italic%2C200%2C200italic%2C300%2C300italic%2C400%2C400italic%2C500%2C500italic%2C600%2C600italic%2C700%2C700italic%2C800%2C800italic%2C900%2C900italic&amp;display=auto&amp;ver=6.4.3" type="text/css" media="all">
+<link rel="stylesheet" id="rs-plugin-settings-css" href="../css/rs6.css" type="text/css" media="all">
+<style id="rs-plugin-settings-inline-css" type="text/css">
+#rs-demo-id {}
+</style>
+<script type="text/javascript" id="contact-form-7-js-extra">
+/* <![CDATA[ */
+var wpcf7 = {"api":{"root":"http:\/\/127.0.0.1:8080\/wp-json\/","namespace":"contact-form-7\/v1"}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/index.js" id="contact-form-7-js"></script>
+<script type="text/javascript" src="../js/rbtools.min.js" defer="" async="" id="tp-tools-js"></script>
+<script type="text/javascript" src="../js/rs6.min.js" defer="" async="" id="revmin-js"></script>
+<script type="text/javascript" id="wphb-extra-js-js-extra">
+/* <![CDATA[ */
+var TPHB_Extra_Lang = [];
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/site.min.js" id="wphb-extra-js-js"></script>
+<script type="text/javascript" id="wp-hotel-booking-js-extra">
+/* <![CDATA[ */
+var hotel_booking_i18n = {"invalid_email":"Votre adresse e-mail est invalide.","no_payment_method_selected":"Veuillez s\u00e9lectionner un moyen de paiement.","confirm_tos":"Veuillez accepter nos conditions de vente.","no_rooms_selected":"Veuillez s\u00e9lectionner au moins une chambre.","empty_customer_title":"Veuillez saisir votre civilit\u00e9.","empty_customer_first_name":"Veuillez saisir votre pr\u00e9nom.","empty_customer_last_name":"Veuillez saisir votre nom de famille.","empty_customer_address":"Veuillez saisir votre adresse.","empty_customer_city":"Veuillez saisir votre ville.","empty_customer_state":"Veuillez saisir votre d\u00e9partement.","empty_customer_postal_code":"Veuillez saisir votre code postal.","empty_customer_country":"Veuillez s\u00e9lectionner votre pays.","empty_customer_phone":"Veuillez entrer votre num\u00e9ro de t\u00e9l\u00e9phone.","customer_email_invalid":"Votre e-mail est invalide.","customer_email_not_match":"Votre e-mail ne correspond pas \u00e0 un e-mail existant\u00a0! Ok pour cr\u00e9er une nouvelle fiche client.","empty_check_in_date":"Veuillez s\u00e9lectionner une date d\u2019arriv\u00e9e.","empty_check_out_date":"Veuillez s\u00e9lectionner une date de d\u00e9part.","check_in_date_must_be_greater":"La date d\u2019arriv\u00e9e doit \u00eatre sup\u00e9rieure \u00e0 celle du jour.","check_out_date_must_be_greater":"La date de d\u00e9part doit \u00eatre sup\u00e9rieure \u00e0 la date d\u2019arriv\u00e9e.","enter_coupon_code":"Veuillez saisir un code promo.","review_rating_required":"Veuillez s\u00e9lectionner un prix.","review_content_required":"Please enter a review.","review_author_required":"Please enter your author.","review_email_required":"Please enter your email.","waring":{"room_select":"Veuillez s\u00e9lectionner un num\u00e9ro de chambre.","try_again":"Veuillez r\u00e9essayer\u00a0!"},"date_time_format":"MM dd, yy","monthNames":["Janvier","F\u00e9vrier","Mars","Avril","Mai","Juin","Juillet","Ao\u00fbt","Septembre","Octobre","Novembre","D\u00e9cembre"],"monthNamesShort":["Jan","F\u00e9v","Mar","Avr","Mai","Juin","Jul","Ao\u00fbt","Sep","Octobre","Novembre","D\u00e9cembre"],"dayNames":["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"],"dayNamesShort":["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"],"dayNamesMin":["Di","Lu","Ma","Me","Je","Ve","Sa"],"date_start":"1","view_cart":"Voir le panier","cart_url":"http:\/\/127.0.0.1:8080\/hotel-cart\/"};
+var hotel_booking_i18n = {"invalid_email":"Votre adresse e-mail est invalide.","no_payment_method_selected":"Veuillez s\u00e9lectionner un moyen de paiement.","confirm_tos":"Veuillez accepter nos conditions de vente.","no_rooms_selected":"Veuillez s\u00e9lectionner au moins une chambre.","empty_customer_title":"Veuillez saisir votre civilit\u00e9.","empty_customer_first_name":"Veuillez saisir votre pr\u00e9nom.","empty_customer_last_name":"Veuillez saisir votre nom de famille.","empty_customer_address":"Veuillez saisir votre adresse.","empty_customer_city":"Veuillez saisir votre ville.","empty_customer_state":"Veuillez saisir votre d\u00e9partement.","empty_customer_postal_code":"Veuillez saisir votre code postal.","empty_customer_country":"Veuillez s\u00e9lectionner votre pays.","empty_customer_phone":"Veuillez entrer votre num\u00e9ro de t\u00e9l\u00e9phone.","customer_email_invalid":"Votre e-mail est invalide.","customer_email_not_match":"Votre e-mail ne correspond pas \u00e0 un e-mail existant\u00a0! Ok pour cr\u00e9er une nouvelle fiche client.","empty_check_in_date":"Veuillez s\u00e9lectionner une date d\u2019arriv\u00e9e.","empty_check_out_date":"Veuillez s\u00e9lectionner une date de d\u00e9part.","check_in_date_must_be_greater":"La date d\u2019arriv\u00e9e doit \u00eatre sup\u00e9rieure \u00e0 celle du jour.","check_out_date_must_be_greater":"La date de d\u00e9part doit \u00eatre sup\u00e9rieure \u00e0 la date d\u2019arriv\u00e9e.","enter_coupon_code":"Veuillez saisir un code promo.","review_rating_required":"Veuillez s\u00e9lectionner un prix.","review_content_required":"Please enter a review.","review_author_required":"Please enter your author.","review_email_required":"Please enter your email.","waring":{"room_select":"Veuillez s\u00e9lectionner un num\u00e9ro de chambre.","try_again":"Veuillez r\u00e9essayer\u00a0!"},"date_time_format":"MM dd, yy","monthNames":["Janvier","F\u00e9vrier","Mars","Avril","Mai","Juin","Juillet","Ao\u00fbt","Septembre","Octobre","Novembre","D\u00e9cembre"],"monthNamesShort":["Jan","F\u00e9v","Mar","Avr","Mai","Juin","Jul","Ao\u00fbt","Sep","Octobre","Novembre","D\u00e9cembre"],"dayNames":["Dimanche","Lundi","Mardi","Mercredi","Jeudi","Vendredi","Samedi"],"dayNamesShort":["Dim","Lun","Mar","Mer","Jeu","Ven","Sam"],"dayNamesMin":["Di","Lu","Ma","Me","Je","Ve","Sa"],"date_start":"1","view_cart":"Voir le panier","cart_url":"http:\/\/127.0.0.1:8080\/hotel-cart\/"};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/hotel-booking_8.js" id="wp-hotel-booking-js"></script>
+<script type="text/javascript" src="../js/hotel-booking-v2_8.js" id="wp-hotel-booking-v2-js"></script>
+<script type="text/javascript" src="../js/sort-by_8.js" id="wp-hotel-booking-sort-by-js"></script>
+<script type="text/javascript" src="../js/filter-by_8.js" id="wp-hotel-booking-filter-by-js"></script>
+<script type="text/javascript" src="../js/slick.min.js" id="slick-js"></script>
+<script type="text/javascript" src="../js/select2.full.min.js" id="select2-js" defer="defer" data-wp-strategy="defer"></script>
+<script type="text/javascript" src="../js/modernizr.min.js" id="modernizr-js"></script>
+<script type="text/javascript" src="../js/greensock.min.js" id="greensock-js"></script>
+<script type="text/javascript" src="../js/imagesloaded.min.js" id="imagesloaded-js"></script>
+<script type="text/javascript" src="../js/main.min_1.js" id="thim-main-js"></script>
+<script type="text/javascript" src="../js/html5-fallback.js" id="contact-form-7-html5-fallback-js"></script>
+<script type="text/javascript" defer="" src="../js/forms.js" id="mc4wp-forms-api-js"></script>
+<script type="text/javascript" src="../js/webpack.runtime.min.js" id="elementor-webpack-runtime-js"></script>
+<script type="text/javascript" src="../js/frontend-modules.min.js" id="elementor-frontend-modules-js"></script>
+<script type="text/javascript" src="../js/waypoints.min_1.js" id="elementor-waypoints-js"></script>
+<script type="text/javascript" id="elementor-frontend-js-before">
+/* <![CDATA[ */
+var elementorFrontendConfig = {"environmentMode":{"edit":false,"wpPreview":false,"isScriptDebug":false},"i18n":{"shareOnFacebook":"Partager sur Facebook","shareOnTwitter":"Partager sur Twitter","pinIt":"L\u2019\u00e9pingler","download":"T\u00e9l\u00e9charger","downloadImage":"T\u00e9l\u00e9charger une image","fullscreen":"Plein \u00e9cran","zoom":"Zoom","share":"Partager","playVideo":"Lire la vid\u00e9o","previous":"Pr\u00e9c\u00e9dent","next":"Suivant","close":"Fermer"},"is_rtl":false,"breakpoints":{"xs":0,"sm":480,"md":768,"lg":1025,"xl":1440,"xxl":1600},"responsive":{"breakpoints":{"mobile":{"label":"Mobile","value":767,"default_value":767,"direction":"max","is_enabled":true},"mobile_extra":{"label":"Grand mobile","value":880,"default_value":880,"direction":"max","is_enabled":false},"tablet":{"label":"Tablette","value":1024,"default_value":1024,"direction":"max","is_enabled":true},"tablet_extra":{"label":"Grande tablette","value":1200,"default_value":1200,"direction":"max","is_enabled":false},"laptop":{"label":"Portable","value":1366,"default_value":1366,"direction":"max","is_enabled":false},"widescreen":{"label":"\u00c9cran large","value":2400,"default_value":2400,"direction":"min","is_enabled":false}}},"version":"3.5.4","is_static":false,"experimentalFeatures":{"e_dom_optimization":true,"e_optimized_assets_loading":true,"e_optimized_css_loading":true,"a11y_improvements":true,"e_import_export":true,"additional_custom_breakpoints":true,"e_hidden_wordpress_widgets":true,"landing-pages":true,"elements-color-picker":true,"favorite-widgets":true,"admin-top-bar":true},"urls":{"assets":"http:\/\/127.0.0.1:8080\/wp-content\/plugins\/elementor\/assets\/"},"settings":{"editorPreferences":[]},"kit":{"active_breakpoints":["viewport_mobile","viewport_tablet"],"global_image_lightbox":"yes","lightbox_enable_counter":"yes","lightbox_enable_fullscreen":"yes","lightbox_enable_zoom":"yes","lightbox_enable_share":"yes","lightbox_title_src":"title","lightbox_description_src":"description"},"post":{"id":0,"title":"Page non trouv\u00e9e &#8211; Lezenithhotel","excerpt":""}};
+/* ]]> */
+</script>
+<script type="text/javascript" src="../js/frontend.min.js" id="elementor-frontend-js"></script><span id="elementor-device-mode" class="elementor-screen-only"></span>
+
+
+
+</body></html>

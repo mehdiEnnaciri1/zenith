@@ -1,0 +1,541 @@
+.thim-search-room {
+	.hotel-booking-search {
+		padding: 0;
+		&:before {
+			position: absolute;
+			content: "";
+			top: -17px;
+			left: -17px;
+			border-left: transparent;
+			border-top: transparent;
+			border-bottom: #eaeaea;
+			border-style: solid;
+			border-width: 17px;
+			border-right: transparent;
+			border-bottom-width: 45px;
+			box-shadow: 0 -1px 0 -1px #cfcfcf;
+		}
+		&:after {
+			position: absolute;
+			content: "";
+			top: -17px;
+			right: -17px;
+			border-right: transparent;
+			border-top: transparent;
+			border-bottom: #eaeaea;
+			border-style: solid;
+			border-width: 17px;
+			border-left: transparent;
+			border-bottom-width: 45px;
+			box-shadow: 0 -1px 0 -1px #cfcfcf;
+		}
+		form {
+			background-color: #fff;
+			display: block;
+			padding: 30px 45px;
+			box-shadow: 0px 5px 20px 0 rgba(0, 0, 0, 0.1);
+			max-width: 1170px;
+			margin: 0 auto;
+			&:after {
+				content: '';
+				display: block;
+				clear: both;
+			}
+			.hb-form-table {
+				width: 80%;
+				float: left;
+				.hb-form-field {
+					width: 25%;
+					padding: 0 10px;
+					margin: 0;
+					float: left;
+					.hb_input_field {
+						display: block;
+					}
+					input, button, select {
+						width: 100%;
+						min-width: auto;
+						border-radius: unset;
+						height: 50px;
+						line-height: 50px;
+					}
+				}
+			}
+			.hb-submit {
+				width: 20%;
+				float: left;
+				padding: 0 10px;
+				button {
+					width: 100%;
+					min-width: auto;
+					height: 50px;
+					line-height: 50px;
+					.lds-ring{
+						position: absolute;
+						left: 0;
+						top: 50%;
+						transform: translateY(-50%);
+						width: 25px;
+						height: 25px;
+					}
+				}
+			}
+		}
+		input {
+			&::-webkit-input-placeholder {
+				color: #7a7a7a;
+			}
+			&:-moz-placeholder {
+				color: #7a7a7a;
+			}
+			&::-moz-placeholder {
+				color: #7a7a7a;
+			}
+			&:-ms-input-placeholder {
+				color: #7a7a7a;
+			}
+			&:before {
+				content: "\f073";
+				display: block;
+				position: absolute;
+				top: 10px;
+				right: 10px;
+			}
+		}
+		input, button, select {
+			line-height: 40px;
+			padding: 0px 8px;
+		}
+		.hb-form-field {
+			position: relative;
+			.hb_input_field {
+				.hb_input_date_check {
+					padding-right: 20px;
+				}
+				input {
+					&.error {
+						border-color: red;
+						&:focus {
+							@include rounded(3px);
+						}
+					}
+				}
+			}
+		}
+		&.col-3 {
+			form {
+				.hb-form-table {
+					.hb-form-field {
+						width: 33.33%;
+					}
+				}
+			}
+		}
+		&.col-2 {
+			form {
+				.hb-form-table {
+					.hb-form-field {
+						width: 50%;
+					}
+				}
+			}
+		}
+	}
+
+	&.thim-search-no-padding {
+		form {
+			background: transparent;
+			box-shadow: none;
+			padding-left: 0;
+			padding-right: 0;
+			max-width: 1190px;
+			&:after, &:before {
+				display: none;
+			}
+			.thim-bg-black-overlay & {
+				input, button, select {
+					border-color: transparent;
+				}
+			}
+			.hb-submit{
+				button{
+					text-transform: uppercase;
+					@media(max-width: 991px){
+						font-size: 12px;
+					}
+				}
+			}
+		}
+	}
+}
+
+form[name=hb-payment-form],
+form[name=hb-search-form] {
+	button.hb_loading {
+		position: relative;
+		cursor: progress;
+		border: 0;
+		&:before {
+			content: '';
+			position: absolute;
+			display: block;
+			left: 0;
+			right: 0;
+			top: 0;
+			bottom: 0;
+			background-image: url('assets/images/loading.gif');
+			background-position: center center;
+			background-repeat: no-repeat;
+			background-color: rgba(255, 255, 255, 0.5) !important;
+			@include rounded(3px);
+		}
+	}
+}
+
+.hotel_booking_invalid_quantity .dk-selected {
+	border-color: red;
+}
+
+.hotel_checkout_errors {
+	display: none;
+}
+
+button.ui-datepicker-trigger {
+	cursor: pointer !important;
+	position: absolute !important;
+	display: inline;
+	padding: 0 !important;
+	font-size: 13px;
+	background: transparent !important;
+	color: #aaa;
+	left: 0;
+	text-align: right;
+	border-color: transparent !important;
+	&:before {
+		display: none !important;
+	}
+}
+
+.hb_input_field:after {
+	display: none;
+}
+
+.thim-search-room-slider {
+	margin-top: -655px;
+	width: 480px;
+	right: 0;
+	float: right;
+	height: 550px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	position: relative;
+	.elementor-column-gap-default{
+		width: 100%;
+	}
+	@media(max-width:1199px){
+		margin-top: -600px;
+	}
+	@media(max-width:991px){
+		margin-top: -550px;
+		width: 400px;
+	}
+	@media(max-width:768px){
+		background: rgba(0,0,0,0.7);
+	}
+	&.panel-row-style{
+		@media(max-width:780px){
+			background: rgba(0,0,0,0.7);	
+		}
+		.wrapper-line-heading{
+			@media(max-width:780px){
+				position: relative;
+				writing-mode: inherit;
+			}
+			.line-heading{
+				@media(max-width:780px){
+					display: block;
+				}
+			}
+		}
+		.hotel-booking-search{
+			@media(max-width:780px){
+				padding: 13px 30px;
+			}
+		}
+	}
+	
+	.wrapper-line-heading {
+		padding-bottom: 0;
+		writing-mode: vertical-rl;
+		position: absolute;
+		right: 0;
+		@media(max-width:768px){
+			position: relative;
+			writing-mode: inherit;
+		}
+		.heading__primary {
+			font-size: 33px;
+			color: #FFF;
+			text-transform: uppercase;
+			margin-top: 10px;
+			@media(max-width: 480px){
+				font-size: 24px;
+			}
+		}
+		.line-heading {
+			// margin: 0px auto;
+			display: none;
+			@media(max-width: 768px){
+				display: block;
+			}
+		}
+	}
+	.hb-form-field {
+		text-align: left;
+	}
+	.hotel-booking-search button, .hotel-booking-search input, .hotel-booking-search select, .hotel-booking-search textarea {
+		width: 100%;
+	}
+	.hb_input_field {
+		width: 100%;
+		display: block;
+	}
+	.hotel-booking-search {
+		padding: 0px 100px 0px 0px;
+		@media(max-width:991px){
+			padding: 0px 50px 0px 0px;
+		}
+		@media(max-width:768px){
+			padding: 13px 15px;
+		}
+		input,select,button{
+			height: 50px;
+			font-size: 18px;
+			background: transparent;
+			border-radius: 0;
+			border: none;
+			color: #fff;
+			padding-left: 0;
+		}
+		input,select{
+			border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+			&:hover{
+				cursor: pointer;
+				border-bottom: 2px solid rgba(255, 255, 255, 1);
+			}
+			&::placeholder{
+				color: #fff;
+			}
+		}
+		button{
+			@media(max-width: 480px){
+				font-size: 16px;
+			}
+		}
+		.hb-form-table{
+			.hb-form-field{
+				margin-bottom: 25px;
+				.hb-form-field-input{
+					.ui-datepicker-trigger{
+						i{
+							padding-right: 0;
+							font-size: 24px;
+							&::before{
+								content: "\f133";
+								font-family: 'Line Awesome Free';
+								font-weight: 900;
+								
+							}
+						}
+					}
+					select{
+						position:relative;
+						option{
+							background: #000;
+						}
+					}
+				}
+			}
+		}
+		.hb-submit{
+			button{
+				border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+				position: relative;
+				text-align: left;
+				text-transform: uppercase;
+				&::before{
+					position: absolute;
+					content: "\f061";
+					font-family: 'Line Awesome Free';
+					font-weight: 900;
+					font-size: 24px;
+					right: 0;
+					top: 50%;
+					transform: translateY(-50%);
+
+				}
+				&:hover{
+					border-bottom: 2px solid var(--thim-body-primary-color);
+					background: transparent;
+					
+				}
+			}
+		}
+	}
+	.widget_search-room {
+		position: absolute;
+		top: 50%;
+		@include translate(0, -50%);
+		left: 0;
+		right: 0;
+	}
+}
+
+.widget_heading {
+	.text-left {
+		&.heading-left{
+			.sc-heading{
+				@media(max-width: 767px){
+					text-align: center;
+				}
+			}
+		}
+		.sc-heading {
+			text-align: left;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		.heading__primary {
+			font-size: 40px;
+		}
+	}
+}
+.elementor-widget-thim-heading{
+	&.text-left {
+		&.heading-left{
+			.sc-heading{
+				@media(max-width: 767px){
+					text-align: center;
+				}
+			}
+		}
+		.sc-heading {
+			text-align: left;
+			padding-top: 0;
+			padding-bottom: 0;
+		}
+		.heading__primary {
+			font-size: 40px;
+		}
+	}
+}
+.nav-right {
+	.hb_room_carousel_container {
+		position: relative;
+		.navigation {
+			display: inline-block;
+			float: right;
+			@media(max-width:767px){
+				float: unset;
+				display: block;
+			}
+		}
+		.text_link {
+			text-align: right;
+			position: absolute;
+			right: 0;
+			top: 0;
+			margin: 0 63px;
+			@media(max-width:767px){
+				position: relative;
+				text-align: center;
+			}
+		}
+		.hb_room_carousel {
+			padding-top: 70px;
+			@media(max-width:768px){
+				padding-top: 40px;
+			}
+		}
+	}
+}
+
+.thim-border-bottom:after {
+	border-bottom: 1px solid #eee;
+	position: relative;
+	margin-left: 15px;
+	margin-right: 15px;
+	display: block;
+}
+
+.hb-search-room-results .hb_success_message {
+	display: none !important;
+}
+
+.hotel-booking-search button, .hotel-booking-search input, .hotel-booking-search select, .hotel-booking-search textarea {
+	&.error {
+		border-color: red;
+	}
+}
+
+button.ui-datepicker-trigger i {
+	padding: 10px;
+}
+
+.rtl button.ui-datepicker-trigger i {
+	float: left;
+}
+
+.hb-select-extra-results {
+	.hb_extra_optional_right {
+		input {
+			cursor: pointer;
+			text-align: center;
+			height: 14px;
+			width: 14px;
+			outline: 0 !important;
+			border: 1px solid #979797;
+			border-radius: 0;
+			-webkit-appearance: none;
+			-webkit-transition: .05s border-color ease-in-out;
+			transition: .05s border-color ease-in-out;
+			line-height: 14px;
+			margin-top: 9px;
+			&:checked {
+				&:before {
+					content: '\2714' !important;
+					margin-top: -9px;
+					float: left;
+					display: inline-block;
+					vertical-align: middle;
+					width: 14px;
+					font: 400 20px/1 dashicons;
+					speak: none;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+				}
+			}
+		}
+	}
+
+	.hb_addition_packages {
+		border-bottom: 1px solid $border-color;
+		margin-bottom: 10px;
+	}
+
+	.hb_button {
+		margin: 0 2px;
+		height: 40px;
+		border: 0;
+		border-radius: 0;
+		padding: 0 12px;
+		font-size: 12px;
+		font-weight: 700;
+		text-transform: uppercase;
+		line-height: 40px;
+		min-width: 100px;
+		float: left;
+		display: inline-block;
+	}
+}

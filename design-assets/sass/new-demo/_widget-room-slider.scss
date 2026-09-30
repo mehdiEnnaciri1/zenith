@@ -1,0 +1,186 @@
+.elementor-widget-thim-hotel-room,
+.thim-widget-hotel-room {
+	.style_new {
+		position: relative;
+		.navigation {
+			position: static;
+			.prev {
+				position:      absolute;
+				top:           50%;
+				transform:     translate(0%, -50%);
+				left:          -80px;
+				width:         64px;
+				height:        64px;
+				border:        1px solid #eee;
+				background:    #fff;
+				border-radius: 50%;
+				text-align:    center;
+				line-height:   64px;
+				font-size:     40px;
+				color:         #eee;
+				&:hover {
+					border: 1px solid #c19b76;
+					color:  #c19b76;
+				}
+			}
+
+			.next {
+				position:      absolute;
+				top:           50%;
+				transform:     translate(0%, -50%);
+				right:         -65px;
+				width:         64px;
+				height:        64px;
+				border:        1px solid #eee;
+				background:    #fff;
+				border-radius: 50%;
+				text-align:    center;
+				line-height:   64px;
+				font-size:     40px;
+				color:         #eee;
+				&:hover {
+					border: 1px solid #c19b76;
+					color:  #c19b76;
+				}
+			}
+		}
+		.hb_room_carousel_container {
+			position: relative;
+			z-index:  999;
+			.hb_room_carousel {
+				.rooms {
+					.hb_room {
+
+						.summary {
+							border: none;
+
+							.content-room {
+								position:   absolute;
+								top:        50%;
+								left:       60px;
+								transform:  translate(0%, calc(-50% - 37.5px));
+								z-index:    999;
+								width:      510px;
+								padding:    45px 50px;
+								background: #fff;
+								box-shadow: 0px 15px 35px 0 rgba(0, 29, 44, 0.1);
+							}
+							.media {
+								float: right;
+								img {
+									width:          auto;
+									padding-right:  135px;
+									padding-bottom: 75px;
+									position:       relative;
+									z-index:        9;
+								}
+								.actions {
+									bottom:     0;
+									right:      105px;
+									transform:  translate(0%, 0%);
+									opacity:    1;
+									left:       auto;
+									top:        auto;
+									height:     90px;
+									text-align: right;
+									a {
+										position:       relative;
+										padding:        23px 115px 23px 50px;
+										border-radius:  0;
+										font-size:      20px;
+										font-weight:    300;
+										text-transform: uppercase;
+										background:     #3b3b3b !important;
+										img {
+											background: #c19b76;
+											position:   absolute;
+											top:        0;
+											right:      0;
+											padding:    19px 23px;
+										}
+									}
+									&:hover {
+										a {
+											background: #c19b76 !important;
+											color: #fff;
+											img {
+												background: #3b3b3b;
+											}
+										}
+									}
+								}
+								&:after {
+									display: none;
+								}
+							}
+							.footer-content-room {
+								.price {
+									border:  none;
+									padding: 0;
+									@include translate(0, 0);
+									.price_value {
+										font-size:   35px;
+										font-weight: 400;
+										color:       #c19b76;
+									}
+									.unit {
+										font-size:      18px;
+										font-weight:    400;
+										color:          #c19b76;
+										letter-spacing: 0.5px;
+										text-transform: lowercase;
+										position:       relative;
+										top:            12px;
+										left:           -10px;
+										&:before {
+											font-size:   35px;
+											margin-left: 5px;
+										}
+									}
+								}
+							}
+
+							.title-room {
+								padding: 0;
+								.title {
+									h4 {
+										margin-top: 15px;
+										a {
+											font-size:   40px;
+											font-weight: 400;
+											line-height: 45px;
+										}
+									}
+								}
+							}
+							.description {
+								padding: 0;
+								p {
+									font-size:   20px;
+									font-weight: 300;
+								}
+							}
+							&:hover {
+								.media {
+									.actions {
+										@include translate(0, 0);
+									}
+								}
+								.price {
+									@include translate(0, 0);
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+
+	.background-image {
+		position: absolute;
+		bottom:   0;
+		right:    60px;
+		z-index:  1;
+	}
+}
