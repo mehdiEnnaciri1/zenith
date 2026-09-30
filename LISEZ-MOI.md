@@ -20,7 +20,7 @@ Les fichiers techniques du thème utilisé (thème "Sailing") :
 - `fonts/` — polices utilisées (Font Awesome, icônes)
 - `theme-images/` — images décoratives du thème (motifs, séparateurs)
 
-### `pages-html/` (~22 Mo)
+### `docs/` (~22 Mo) — [Voir en ligne](https://mehdiennaciri1.github.io/zenith/)
 Copie statique de chaque page du site, telle qu'affichée dans le navigateur (HTML + CSS final + JS + images). **Ouvrir directement les fichiers .html dans un navigateur — pas besoin de serveur, ni de Docker, ni d'internet** :
 - `index.html` — Accueil
 - `hebergements.html` — Chambres et Suites
