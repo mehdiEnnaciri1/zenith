@@ -1,0 +1,35 @@
+/* Le Zénith Hôtel & Spa — feuille partagée. La mise en page est inline dans les pages (reprise de la maquette). */
+:root{--zo:2;--zoa:6%;--zob:52%}
+@media(max-width:900px){:root{--zo:0;--zoa:0;--zob:0}}
+
+html{scroll-behavior:smooth}
+body{margin:0;background:#f5efe6;color:#1c1512;font-family:Jost,sans-serif;-webkit-font-smoothing:antialiased}
+*{box-sizing:border-box}
+a{color:#6e0d1c;text-decoration:none}
+a:hover{color:#b00e23}
+img{display:block}
+::selection{background:#6e0d1c;color:#f5efe6}
+[id]{scroll-margin-top:84px}
+#top{scroll-margin-top:0}
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid #b00e23;outline-offset:3px}
+
+/* Header : navigation desktop / bouton Menu mobile */
+@media(max-width:980px){.z-wide{display:none!important}}
+@media(min-width:981px){.z-narrow,.z-menu{display:none!important}}
+
+/* Carrousels : barre de défilement masquée */
+[data-rail]::-webkit-scrollbar{display:none}
+
+/* Survols (générés depuis la maquette) */
+.zh1:hover{background:#b00e23!important;transform:translateY(-2px)!important}
+.zh2:hover{background:#b00e23!important;color:#f5efe6!important}
+.zh3:hover{background:#6e0d1c!important;color:#f5efe6!important}
+.zh4:hover{color:#e2c9a0!important}
+.zh5:hover{transform:scale(1.06)!important}
+.zh6:hover{transform:scale(1.07)!important;opacity:.7!important}
+.zh7:hover{background:#e2c9a0!important}
+.zh8:hover{background:#f5efe6!important;color:#6e0d1c!important}
+.zh9:hover{background:#e2c9a0!important;color:#6e0d1c!important}
+.zh10:hover{transform:scale(1.05)!important}
+.zh11:hover{color:#6e0d1c!important}
