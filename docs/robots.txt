@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://mehdiennaciri1.github.io/zenith/sitemap.xml

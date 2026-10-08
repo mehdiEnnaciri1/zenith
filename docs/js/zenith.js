@@ -130,6 +130,18 @@
     b.addEventListener('focus', function () { pick(i); });
   });
 
+  /* ---- Carte Google : chargée au clic seulement ---- */
+  $$('[data-map]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var f = document.createElement('iframe');
+      f.title = 'Le Zenith Hotel & Spa';
+      f.src = b.getAttribute('data-map');
+      f.loading = 'lazy';
+      f.style.cssText = 'position:absolute;inset:0;width:100%;height:100%;border:0;filter:grayscale(.85) sepia(.15)';
+      b.parentElement.replaceWith(f);
+    });
+  });
+
   /* ---- Animations (désactivées si prefers-reduced-motion) ---- */
   function startAnim() {
     if (window.ZenithAnim) window.ZenithAnim.init({ animations: !reduced, parallax: 1 });
